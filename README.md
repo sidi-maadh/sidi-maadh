@@ -23,7 +23,8 @@
 </div>
 
 <!-- Info section -->
-## <img src = "https://i.ibb.co/G3F3y9z/3f7e4eff7c96e9fe4b8b4b1ff3f7bdb5.gif" width = 55px> About me 
+<details open> 
+  <summary> <h2> <img src = "https://i.ibb.co/G3F3y9z/3f7e4eff7c96e9fe4b8b4b1ff3f7bdb5.gif" width = 55px> About me  </h2> </summary>
 <img align="right" src="https://i.ibb.co/Hp2Hn64/140866485-8fb1c876-9a8f-4d6a-98dc-08c4981eaf70.gif" width=400px>
 <br><br>
 
@@ -32,12 +33,12 @@
 - ✍🏻 I love using Software as a solution for every Problem.
 - 😎 Always learning new things, this is [MY SELF EDUCATION](https://docs.google.com/spreadsheets/d/1ZML9h4zXsLC8KIx6g4DR-lsSJ7VzN-aj-Meo9Lrdt7w/edit?usp=sharing).
 - :thinking: This is [MY RESUME](https://drive.google.com/file/d/1w5D3iPeZThQWXO-vnhodsMFtNqpmB9u5/view?usp=sharing).
-
-
+</details>
 
 
 <!-- Socials section -->
-<h2 > <img src = "https://i.ibb.co/pQRkYR9/giphy-gif-cid-ecf05e47yg13d5n6jvsy19nl8qlvxaeldc01rk1355lnng0r-ep-v1-gifs-related-rid-giphy.gif" width = 50px> Connect with me </h2>
+<details open> 
+  <summary> <h2> <img src = "https://img.icons8.com/?size=100&id=dBsPW6uRLg1C&format=png&color=000000" width = 50px> Connect with me </h2> </summary>
 <div align="center"> 
   <a href="mailto:sidichrifahdmaadh@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-333333?style=for-the-badge&logo=gmail&logoColor=red" />
@@ -59,17 +60,16 @@
      <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white" target="_blank" />  
   </a> -->
 
-
   <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="45"> <em><b>I love connecting with different people</b> so if you want to say <b>hi, I'll be 
   happy to meet you more!</b> :)</em>
 
 </div>
-
-
+</details>
 
 
 <!-- Competitive Programming & Problem Solving Profiles section -->
-## <img src = "https://i.ibb.co/t3nQqD4/CP-PS.gif" width = 55px> My Competitive Programming & Problem Solving Profiles
+<details> 
+  <summary> <h2> <img src = "https://img.icons8.com/?size=100&id=Fo47gZvKesPd&format=png&color=000000" width = 55px> My Competitive Programming & Problem Solving Profiles </h2> </summary>
 <p align="center" width=100%>
     <a href="https://leetcode.com/sidi-maadh/"><img src="https://img.icons8.com/?size=80&id=9L16NypUzu38&format=png&color=000000" alt="LeetCode"/></a>
     <a href="https://codeforces.com/profile/sidi_maadh"><img src="https://img.icons8.com/?size=80&id=YSy0lU4Y0X4z&format=png&color=000000" alt="Code Forces"/></a>
@@ -78,14 +78,12 @@
     <a href="https://www.codechef.com/users/sidi_maadh"><img src="https://i.ibb.co/GJzwg4Q/images-3-removebg-preview.png" alt="CodeChef" width=80/></a>
     <a href="https://www.hackerrank.com/profile/sidi_maadh"><img src="https://img.icons8.com/?size=80&id=h5EUmNCXhSH0&format=png&color=000000" alt="HackerRank"/></a>
 <p/>
-
-
+</details>
 
 
 <!-- Skills & Tools section -->
 <details> 
-  <summary><h2>  <img src="https://i.ibb.co/tDh2Zc2/giphy.gif" width=55px> My Favorite Tools 
-  </h2></summary>
+  <summary> <h2> <img src = "https://img.icons8.com/?size=100&id=Vh44ppGKSLoR&format=png&color=000000" width = 55px> My Favorite Tools </h2> </summary>
   <h2 > <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width =45px> 		 
    Programming Languages :</h2>
    <p align="center"><img src="https://skillicons.dev/icons?i=cpp,java,python,javascript,typescript,php," /></p>
@@ -124,7 +122,7 @@
 
 
 <!-- Stats and Activity section -->
-<details><summary> <h2><img src = "https://i.ibb.co/k38jRZM/Statistics.gif" width = 55px> Github Stats and Activity </h2> </summary>
+<details><summary> <h2> <img src = "https://img.icons8.com/?size=100&id=jjNIV8XQ63Y9&format=png&color=000000" width = 55px> Github Stats and Activity </h2> </summary>
 
 <details><summary><h3> 🔥 Streak Stats </h3></summary>
 
