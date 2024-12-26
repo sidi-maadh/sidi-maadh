@@ -174,6 +174,9 @@
 	<a href="https://github.com/sidi-maadh/MySolutions">
       		<img src="https://github-readme-stats.vercel.app/api/pin/?username=sidi-maadh&repo=MySolutions&theme=tokyonight" alt="GitHub Stats" />
     	</a>
+	<a href="https://github.com/sidi-maadh/MachineLearning-And-DeepLearning-Templates">
+      		<img src="https://github-readme-stats.vercel.app/api/pin/?username=sidi-maadh&repo=MachineLearning-And-DeepLearning-Templates&theme=tokyonight" alt="GitHub Stats" />
+    	</a>
 	<a href="https://github.com/sidi-maadh/CleanYourEar-Game">
       		<img src="https://github-readme-stats.vercel.app/api/pin/?username=sidi-maadh&repo=CleanYourEar-Game&theme=tokyonight" alt="GitHub Stats" />
     	</a>
