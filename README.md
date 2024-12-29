@@ -72,7 +72,7 @@
 
 <!-- Competitive Programming & Problem Solving Profiles section -->
 <details> 
-  <summary> <h2> <img src = "https://img.icons8.com/?size=100&id=Fo47gZvKesPd&format=png&color=000000" width = 40px>  My Problem Solving Profiles </h2> </summary>
+  <summary> <h2> <img src = "https://img.icons8.com/?size=100&id=Fo47gZvKesPd&format=png&color=000000" width = 40px>  My Competitive Programming / Problem Solving Profiles </h2> </summary>
 <p align="center" width=100%>
 		
 <a href="https://www.hackerrank.com/profile/sidi_maadh">
