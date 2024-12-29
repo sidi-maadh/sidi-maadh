@@ -17,7 +17,7 @@
 <div align="center">
 
 ![GitHub followers](https://img.shields.io/github/followers/sidi-maadh?style=for-the-badge&logo=githubsponsors&logoColor=FFFFFF&labelColor=1155ba&color=236ad3&link=https%3A%2F%2Fgithub.com%2Fsidi-maadh%3Ftab%3Dfollowers)
-![GitHub User's stars](https://img.shields.io/github/stars/sidi-maadh?style=for-the-badge&logo=apachespark&logoColor=FFFFFF&labelColor=488207&color=55960c&link=https%3A%2F%2Fgithub.com%2Fsidi-maadh%3Ftab%repositories%4Fsort%stargazers)
+![GitHub User's stars](https://img.shields.io/github/stars/sidi-maadh?style=for-the-badge&logo=apachespark&logoColor=FFFFFF&labelColor=488207&color=55960c&link=https%3A%2F%2Fgithub.com%2Fsidi-maadh%3Ftab%repositories%3Fsort%stargazers)
 ![GitHub watchers](https://img.shields.io/github/watchers/sidi-maadh/sidi-maadh?style=for-the-badge&logo=darkreader&logoColor=FFFFFF&label=Visitors&labelColor=ff9900&color=ffa200)
 
 </div>
