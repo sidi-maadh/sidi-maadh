@@ -17,7 +17,9 @@
 <div align="center">
 
 ![GitHub followers](https://img.shields.io/github/followers/sidi-maadh?style=for-the-badge&logo=githubsponsors&logoColor=FFFFFF&labelColor=1155ba&color=236ad3&link=https%3A%2F%2Fgithub.com%2Fsidi-maadh%3Ftab%3Dfollowers)
-![GitHub User's stars](https://img.shields.io/github/stars/sidi-maadh?style=for-the-badge&logo=apachespark&logoColor=FFFFFF&labelColor=488207&color=55960c&link=https%3A%2F%2Fgithub.com%2Fsidi-maadh%3Ftab%3Dstars)
+
+<a href="https://github.com/sidi-maadh?tab=stars">
+<img alt="youtube subscribers" title="Subscribe to my YouTube channel" src="https://img.shields.io/github/stars/sidi-maadh?style=for-the-badge&logo=apachespark&logoColor=FFFFFF&labelColor=488207&color=55960c&link=https%3A%2F%2Fgithub.com%2Fsidi-maadh%3Ftab%3Dstars"/></a>
 
 ![GitHub watchers](https://img.shields.io/github/watchers/sidi-maadh/sidi-maadh?style=for-the-badge&logo=darkreader&logoColor=FFFFFF&label=Visitors&labelColor=ff9900&color=ffa200)
 
@@ -72,16 +74,22 @@
 <details> 
   <summary> <h2> <img src = "https://img.icons8.com/?size=100&id=Fo47gZvKesPd&format=png&color=000000" width = 40px>  My Problem Solving Profiles </h2> </summary>
 <p align="center" width=100%>
-    <a href="https://leetcode.com/sidi-maadh/"><img src="https://img.icons8.com/?size=80&id=9L16NypUzu38&format=png&color=000000" alt="LeetCode"/></a>
-    <a href="https://codeforces.com/profile/sidi_maadh"><img src="https://img.icons8.com/?size=80&id=YSy0lU4Y0X4z&format=png&color=000000" alt="Code Forces"/></a>
-    <a href="https://www.codewars.com/users/sidi-maadh"><img src="https://img.icons8.com/?size=80&id=bsDrp6QDOOnQ&format=png&color=000000" alt="Codewars"/></a>
-    <a href="https://atcoder.jp/users/sidi_maadh"><img src="https://i.ibb.co/PDz3s4b/images-4-removebg-preview.png" alt="AtCode" width=80/></a>    
-    <a href="https://www.codechef.com/users/sidi_maadh"><img src="https://i.ibb.co/GJzwg4Q/images-3-removebg-preview.png" alt="CodeChef" width=80/></a>
-    <a href="https://www.hackerrank.com/profile/sidi_maadh"><img src="https://img.icons8.com/?size=80&id=h5EUmNCXhSH0&format=png&color=000000" alt="HackerRank"/></a>
-	
-	
-<a href="https://github.com/sidi-maadh?tab=stars">
-<img alt="youtube subscribers" title="Subscribe to my YouTube channel" src="https://img.shields.io/github/stars/sidi-maadh?style=for-the-badge&logo=apachespark&logoColor=FFFFFF&labelColor=488207&color=55960c&link=https%3A%2F%2Fgithub.com%2Fsidi-maadh%3Ftab%3Dstars"/></a>
+		
+<a href="https://www.hackerrank.com/profile/sidi_maadh">
+<img src="https://img.shields.io/badge/hackerrank-bleu?style=for-the-badge&logo=hackerrank&logoColor=%23000000&link=https%3A%2F%2Fwww.hackerrank.com%2Fprofile%2Fsidi_maadh"/></a>
+<a href="https://codeforces.com/profile/sidi_maadh">
+<img src="https://img.shields.io/badge/codeforces-bleu?style=for-the-badge&logo=codeforces&logoColor=%23FFFFFF&logoSize=auto&color=%231F8ACB&link=https%3A%2F%2Fcodeforces.com%2Fprofile%2Fsidi_maadh"/></a>
+<a href="https://www.codechef.com/users/sidi_maadh">
+<img src="https://img.shields.io/badge/codechef-bleu?style=for-the-badge&logo=codechef&logoColor=%23FFFFFF&color=%235B4638&link=https%3A%2F%2Fwww.codechef.com%2Fusers%2Fsidi_maadh"/></a>
+<a href="https://www.codewars.com/users/sidi-maadh">
+<img src="https://img.shields.io/badge/codewars-bleu?style=for-the-badge&logo=codewars&logoColor=%23FFFFFF&logoSize=auto&color=%23B1361E&link=https%3A%2F%2Fwww.codewars.com%2Fusers%2Fsidi-maadh"/></a>
+<a href="https://www.geeksforgeeks.org/user/sidichrif2rzg/">
+<img src="https://img.shields.io/badge/geeksforgeeks-bleu?style=for-the-badge&logo=geeksforgeeks&logoColor=%23FFFFFF&logoSize=auto&color=%232F8D46&link=https%3A%2F%2Fwww.geeksforgeeks.org%2Fuser%2Fsidichrif2rzg%2F"/></a>
+<a href="https://profiles.topcoder.com/sidi_maadh">
+<img src="https://img.shields.io/badge/topcoder-bleu?style=for-the-badge&logo=topcoder&logoColor=%23FFFFFF&logoSize=auto&color=%2329A7DF&link=https%3A%2F%2Fprofiles.topcoder.com%2Fsidi_maadh"/></a>
+<a href="https://profiles.topcoder.com/sidi_maadh">
+<img src="https://img.shields.io/badge/leetcode-bleu?style=for-the-badge&logo=leetcode&logoColor=%23FFFFFF&logoSize=auto&color=%23FFA116&link=https%3A%2F%2Fprofiles.topcoder.com%2Fsidi_maadh"/></a>
+
 
 <p/>
 
