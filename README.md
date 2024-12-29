@@ -18,6 +18,7 @@
 
 ![GitHub followers](https://img.shields.io/github/followers/sidi-maadh?style=for-the-badge&logo=githubsponsors&logoColor=FFFFFF&labelColor=1155ba&color=236ad3&link=https%3A%2F%2Fgithub.com%2Fsidi-maadh%3Ftab%3Dfollowers)
 ![GitHub User's stars](https://img.shields.io/github/stars/sidi-maadh?style=for-the-badge&logo=apachespark&logoColor=FFFFFF&labelColor=488207&color=55960c&link=https%3A%2F%2Fgithub.com%2Fsidi-maadh%3Ftab%3Dstars)
+
 ![GitHub watchers](https://img.shields.io/github/watchers/sidi-maadh/sidi-maadh?style=for-the-badge&logo=darkreader&logoColor=FFFFFF&label=Visitors&labelColor=ff9900&color=ffa200)
 
 </div>
@@ -77,7 +78,13 @@
     <a href="https://atcoder.jp/users/sidi_maadh"><img src="https://i.ibb.co/PDz3s4b/images-4-removebg-preview.png" alt="AtCode" width=80/></a>    
     <a href="https://www.codechef.com/users/sidi_maadh"><img src="https://i.ibb.co/GJzwg4Q/images-3-removebg-preview.png" alt="CodeChef" width=80/></a>
     <a href="https://www.hackerrank.com/profile/sidi_maadh"><img src="https://img.icons8.com/?size=80&id=h5EUmNCXhSH0&format=png&color=000000" alt="HackerRank"/></a>
+	
+	
+<a href="https://www.youtube.com/c/DevProTips?sub_confirmation=1">
+<img alt="youtube subscribers" title="Subscribe to my YouTube channel" src="https://img.shields.io/github/stars/sidi-maadh?style=for-the-badge&logo=apachespark&logoColor=FFFFFF&labelColor=488207&color=55960c&link=https%3A%2F%2Fgithub.com%2Fsidi-maadh%3Ftab%3Dstars"/></a>
+
 <p/>
+
 </details>
 
 
