@@ -80,7 +80,7 @@
     <a href="https://www.hackerrank.com/profile/sidi_maadh"><img src="https://img.icons8.com/?size=80&id=h5EUmNCXhSH0&format=png&color=000000" alt="HackerRank"/></a>
 	
 	
-<a href="https://www.youtube.com/c/DevProTips?sub_confirmation=1">
+<a href="https://github.com/sidi-maadh?tab=stars">
 <img alt="youtube subscribers" title="Subscribe to my YouTube channel" src="https://img.shields.io/github/stars/sidi-maadh?style=for-the-badge&logo=apachespark&logoColor=FFFFFF&labelColor=488207&color=55960c&link=https%3A%2F%2Fgithub.com%2Fsidi-maadh%3Ftab%3Dstars"/></a>
 
 <p/>
