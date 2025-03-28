@@ -103,28 +103,25 @@
   <summary> <h2> <img src = "https://img.icons8.com/?size=100&id=Vh44ppGKSLoR&format=png&color=000000" width = 40px>  My Favorite Tools </h2> </summary>
   <h2 > <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width =45px> 		 
    Programming Languages :</h2>
-   <p align="center"><img src="https://skillicons.dev/icons?i=cpp,java,python,javascript,typescript,php," /></p>
+   <p align="center"><img src="https://skillicons.dev/icons?i=cpp,java,python,javascript,typescript,php,dart" /></p>
 
   <h2 > <img src = "https://img.icons8.com/?size=100&id=KWdW3xrUIkGL&format=png&color=000000" width = 45px> Frontend Development :</h2>
-  <p align="center"><img src="https://skillicons.dev/icons?i=html,css,bootstrap,figma" /></p>
+  <p align="center"><img src="https://skillicons.dev/icons?i=html,css,bootstrap,tailwind,figma" /></p>
 
   <h2 > <img src = "https://img.icons8.com/?size=100&id=T0drIznsJmCi&format=png&color=000000" width = 45px> Backend Development : </h2>
-  <p align="center"><img src="https://skillicons.dev/icons?i=spring" /></p>
+  <p align="center"><img src="https://skillicons.dev/icons?i=spring,flask,django" /></p>
 
   <h2 > <img src = "https://i.ibb.co/nM5RZkz/Front-End.gif" width = 60px> Mobile App Development : </h2>
-   <p align="center"><img src="https://skillicons.dev/icons?i=flutter,dart" /></p>
+   <p align="center"><img src="https://skillicons.dev/icons?i=flutter" /></p>
 
   <h2 > <img src = "https://i.ibb.co/LDK1yw7/giphy.gif" width = 50px>  Database and Cloud Hosting : </h2>
-  <p align="center"><img src="https://skillicons.dev/icons?i=mysql,postgresql" /></p>
+  <p align="center"><img src="https://skillicons.dev/icons?i=mysql,postgresql,sqlite,firebase" /></p>
 
   <h2 > <img src = "https://i.ibb.co/6D5Z5hk/Software-Tools.gif" width = 65px> DevOps : </h2>
   <p align="center"><img src="https://skillicons.dev/icons?i=git,github,docker" /></p>
 
   <h2 > <img src = "https://i.ibb.co/C5LdqQ3/IDEs.gif" width = 60px > IDEs : </h2>
   <p align="center"><img src="https://skillicons.dev/icons?i=vscode,visualstudio,eclipse,pycharm,anaconda" /></p>
-
-  <h2 > <img src = "https://img.icons8.com/?size=100&id=fkxpA56WE1i1&format=png&color=000000" width = 60px> Framework : </h2>
-  
 
   <h2 > <img src = "https://img.icons8.com/?size=100&id=CPpEk1LXJJim&format=png&color=000000" width = 60px> Testing : </h2>
   <p align="center"><img src="https://skillicons.dev/icons?i=postman" /></p>
@@ -133,7 +130,7 @@
    
 
   <h2 > <img src = "https://i.ibb.co/vZQZ5kZ/OS.gif" width = 55px> Operating Systems : </h2>
-  <p align="center"><img src="https://skillicons.dev/icons?i=windows,ubuntu" /></p>
+  <p align="center"><img src="https://skillicons.dev/icons?i=windows,linux,ubuntu" /></p>
 </details>
 
 
