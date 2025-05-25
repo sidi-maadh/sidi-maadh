@@ -28,6 +28,8 @@
 <a href="https://github.com/sidi-maadh/sidi-maadh/watchers">
 <img alt="Github Visitors" title="GitHub profile visitors" src="https://img.shields.io/github/watchers/sidi-maadh/sidi-maadh?style=for-the-badge&logo=darkreader&logoColor=FFFFFF&label=Visitors&labelColor=ff9900&color=ffa200&link=https%3A%2F%2Fgithub.com%2Fsidi-maadh%2Fsidi-maadh%2Fwatchers"/></a>
 
+[![committers.top badge](https://user-badge.committers.top/mauritania/sidi-maadh.svg)](https://user-badge.committers.top/mauritania/sidi-maadh)
+
 </div>
 
 <!-- Info section -->
@@ -132,7 +134,6 @@
   <p align="center"><img src="https://skillicons.dev/icons?i=windows,linux,ubuntu" /></p>
 </details>
 
-[![committers.top badge](https://user-badge.committers.top/REGION/sidi-maadh.svg)](https://user-badge.committers.top/REGION/sidi-maadh)
 
 <!-- Stats and Activity section -->
 <details><summary> <h2> <img src = "https://img.icons8.com/?size=100&id=jjNIV8XQ63Y9&format=png&color=000000" width = 40px>  Github Stats and Activity </h2> </summary>
