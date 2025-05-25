@@ -132,7 +132,7 @@
   <p align="center"><img src="https://skillicons.dev/icons?i=windows,linux,ubuntu" /></p>
 </details>
 
-
+[![committers.top badge](https://user-badge.committers.top/REGION/sidi-maadh.svg)](https://user-badge.committers.top/REGION/sidi-maadh)
 
 <!-- Stats and Activity section -->
 <details><summary> <h2> <img src = "https://img.icons8.com/?size=100&id=jjNIV8XQ63Y9&format=png&color=000000" width = 40px>  Github Stats and Activity </h2> </summary>
