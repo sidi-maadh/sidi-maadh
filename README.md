@@ -29,7 +29,7 @@
 <img alt="Github Visitors" title="GitHub profile visitors" src="https://img.shields.io/github/watchers/sidi-maadh/sidi-maadh?style=for-the-badge&logo=darkreader&logoColor=FFFFFF&label=Visitors&labelColor=ff9900&color=ffa200&link=https%3A%2F%2Fgithub.com%2Fsidi-maadh%2Fsidi-maadh%2Fwatchers"/></a>
 
 <a href="https://user-badge.committers.top/mauritania/sidi-maadh">
-<img alt="Committers Top" title="GitHub Committers Top Rank" src="https://img.shields.io/github/watchers/sidi-maadh/sidi-maadh?style=for-the-badge&logo=darkreader&logoColor=FFFFFF&label=Visitors&labelColor=ff9900&color=ffa200&link=https%3A%2F%2Fgithub.com%2Fsidi-maadh%2Fsidi-maadh%2Fwatchers"/></a>
+<img alt="Committers Top" title="GitHub Committers Top Rank" src="https://img.shields.io/github/watchers/sidi-maadh/sidi-maadh?style=for-the-badge&logo=github&logoColor=FFFFFF&label=committers.top\rank&labelColor=000000&color=000111"/></a>
 
 [![committers.top badge](https://user-badge.committers.top/mauritania/sidi-maadh.svg)](https://user-badge.committers.top/mauritania/sidi-maadh)
 
