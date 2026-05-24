@@ -8,7 +8,7 @@ import re
 import html
 import urllib.request
 
-HANDLE = "ChingueTech"
+HANDLE = "SidiMaadh"
 # Si la résolution auto échoue, mets ton channel ID ici (format UCxxxx)
 FALLBACK_CHANNEL_ID = ""
 
@@ -90,13 +90,13 @@ def build_svg(title):
   <g transform="translate(40, 40)">
     <rect x="0" y="-14" width="4" height="20" rx="2" fill="url(#ytacc)"/>
     <text x="16" y="2" fill="#f0f3f9" font-size="16" font-weight="700">Latest on YouTube</text>
-    <text x="196" y="2" fill="#4b5263" font-size="13">// @ChingueTech</text>
+    <text x="196" y="2" fill="#4b5263" font-size="13">// @SidiMaadh</text>
   </g>
   <rect x="40" y="56" width="64" height="64" rx="12" fill="#13161c" stroke="#222831"/>
   <circle cx="72" cy="88" r="18" fill="#a78bfa" fill-opacity="0.15"/>
   <path d="M67 80 l12 8 l-12 8 z" fill="#a78bfa"/>
   {line_svg}
-  <text x="120" y="{ty + 4}" fill="#6b7280" font-size="12">▶ Watch now on ChingueTech</text>
+  <text x="120" y="{ty + 4}" fill="#6b7280" font-size="12">▶ Watch now on YouTube</text>
 </svg>
 '''
 
