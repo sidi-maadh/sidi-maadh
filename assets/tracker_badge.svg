@@ -1,0 +1,9 @@
+<svg width="360" height="44" viewBox="0 0 360 44" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI', system-ui, sans-serif">
+  <rect x="1" y="1" width="358" height="42" rx="12" fill="#13161c" stroke="#222831"/>
+  <rect x="1" y="1" width="4" height="42" rx="2" fill="#8b5cf6"/>
+  <rect x="20" y="13" width="18" height="18" rx="3" fill="none" stroke="#a78bfa" stroke-width="1.6"/>
+  <line x1="20" y1="19" x2="38" y2="19" stroke="#a78bfa" stroke-width="1.4"/>
+  <line x1="29" y1="13" x2="29" y2="31" stroke="#a78bfa" stroke-width="1.4"/>
+  <circle cx="52" cy="22" r="4" fill="#34d399"/>
+  <text x="64" y="27" fill="#cfd6e4" font-size="13" font-weight="600">Live tracker · My Self-Education Sheet</text>
+</svg>
