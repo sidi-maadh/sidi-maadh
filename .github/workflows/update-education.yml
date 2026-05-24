@@ -3,7 +3,7 @@ name: Update Profile Stats
 on:
   schedule:
     - cron: '0 6 * * *'      # tous les jours à 06:00 UTC
-  workflow_dispatch:          # bouton manuel dans l'onglet Actions
+  workflow_dispatch:          # bouton manuel
 
 permissions:
   contents: write
@@ -20,21 +20,34 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Generate education SVG
+      - name: Education stats (Google Sheet)
         env:
           SHEET_CSV_URL: ${{ secrets.SHEET_CSV_URL }}
         run: python update_education.py
 
-      - name: Generate community SVG
+      - name: Community stats (GitHub API)
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python update_community.py
+
+      - name: Latest projects (GitHub API)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python update_projects.py
+
+      - name: Codeforces rating
+        run: python update_codeforces.py
+        continue-on-error: true
+
+      - name: Latest YouTube video
+        run: python update_youtube.py
+        continue-on-error: true
 
       - name: Commit changes
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add assets/education.svg assets/community.svg
+          git add assets/projects.svg assets/projects_urls.txt assets/education.svg assets/community.svg assets/cp/codeforces.svg assets/youtube_latest.svg assets/youtube_latest_id.txt
           if git diff --staged --quiet; then
             echo "Aucun changement."
           else
