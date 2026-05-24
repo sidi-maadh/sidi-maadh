@@ -39,6 +39,18 @@ jobs:
         run: python update_codeforces.py
         continue-on-error: true
 
+      - name: LeetCode stats
+        run: python update_leetcode.py
+        continue-on-error: true
+
+      - name: CodeChef stats
+        run: python update_codechef.py
+        continue-on-error: true
+
+      - name: HackerRank stats
+        run: python update_hackerrank.py
+        continue-on-error: true
+
       - name: Latest YouTube video
         run: python update_youtube.py
         continue-on-error: true
