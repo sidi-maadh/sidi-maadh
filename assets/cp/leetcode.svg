@@ -2,6 +2,6 @@
   <rect x="1" y="1" width="208" height="108" rx="12" fill="#13161c" stroke="#222831"/>
   <rect x="1" y="1" width="208" height="4" rx="2" fill="#FFA116"/>
   <text x="20" y="34" fill="#8b93a7" font-size="12" font-weight="600" letter-spacing="0.5">LeetCode</text>
-  <text x="20" y="66" fill="#FFA116" font-size="26" font-weight="700">500+</text>
+  <text x="20" y="66" fill="#FFA116" font-size="26" font-weight="700">1+</text>
   <text x="20" y="90" fill="#6b7280" font-size="13">Problems solved</text>
 </svg>
