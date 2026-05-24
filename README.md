@@ -1,27 +1,18 @@
 <!-- ===================== HEADER ===================== -->
 <img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/header.svg" alt="Sidi Chrif Ahmed Maadh — AI / ML Engineer" width="100%"/>
 
-<img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/socials.svg" alt="Socials" width="100%"/>
-
-<div align="center">
-<sub>
-<a href="mailto:sidichrifahdmaadh@gmail.com">Email</a> &nbsp;·&nbsp;
-<a href="https://www.linkedin.com/in/sidichrifahmedmaadh/">LinkedIn</a> &nbsp;·&nbsp;
-<a href="https://twitter.com/SidiMaadh">Twitter</a> &nbsp;·&nbsp;
-<a href="http://www.youtube.com/@ChingueTech">YouTube</a> &nbsp;·&nbsp;
-<a href="https://drive.google.com/file/d/1w5D3iPeZThQWXO-vnhodsMFtNqpmB9u5/view">Resume</a>
-</sub>
-</div>
+<p align="center">
+  <a href="mailto:sidichrifahdmaadh@gmail.com"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/social/email.svg" height="40" alt="Email"/></a>&nbsp;
+  <a href="https://www.linkedin.com/in/sidichrifahmedmaadh/"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/social/linkedin.svg" height="40" alt="LinkedIn"/></a>&nbsp;
+  <a href="https://twitter.com/SidiMaadh"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/social/twitter.svg" height="40" alt="Twitter"/></a>&nbsp;
+  <a href="http://www.youtube.com/@ChingueTech"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/social/youtube.svg" height="40" alt="YouTube"/></a>&nbsp;
+  <a href="https://drive.google.com/file/d/1w5D3iPeZThQWXO-vnhodsMFtNqpmB9u5/view"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/social/resume.svg" height="40" alt="Resume"/></a>
+</p>
 
 <br/>
 
 <!-- ===================== ABOUT ===================== -->
 <img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/about.svg" alt="About" width="100%"/>
-
-<br/>
-
-<!-- ===================== COMMUNITY ===================== -->
-<img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/community.svg" alt="Community" width="100%"/>
 
 <br/>
 
@@ -31,11 +22,14 @@
 <br/>
 
 <!-- ===================== FEATURED PROJECTS ===================== -->
-<!-- <h3>&nbsp;&nbsp;Featured Projects</h3>
+<h3>&nbsp;&nbsp;Featured Projects</h3>
 
 <div align="center">
-<a href="https://github.com/sidi-maadh/MachineLearning-And-DeepLearning-Templates"><img width="49%" src=" &theme=react&bg_color=0d1117&border_color=222831&title_color=6C63FF&icon_color=6C63FF&text_color=c9d1d9"/></a>
-</div> -->
+<a href="https://github.com/sidi-maadh/MachineLearning-And-DeepLearning-Templates"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=sidi-maadh&repo=MachineLearning-And-DeepLearning-Templates&theme=react&bg_color=0d1117&border_color=222831&title_color=6C63FF&icon_color=6C63FF&text_color=c9d1d9"/></a>
+<a href="https://github.com/sidi-maadh/MySolutions"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=sidi-maadh&repo=MySolutions&theme=react&bg_color=0d1117&border_color=222831&title_color=6C63FF&icon_color=6C63FF&text_color=c9d1d9"/></a>
+<a href="https://github.com/sidi-maadh/CleanYourEar-Game"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=sidi-maadh&repo=CleanYourEar-Game&theme=react&bg_color=0d1117&border_color=222831&title_color=6C63FF&icon_color=6C63FF&text_color=c9d1d9"/></a>
+<a href="https://github.com/sidi-maadh/SiteWeb_SOMAPR"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=sidi-maadh&repo=SiteWeb_SOMAPR&theme=react&bg_color=0d1117&border_color=222831&title_color=6C63FF&icon_color=6C63FF&text_color=c9d1d9"/></a>
+</div>
 
 <br/>
 
@@ -50,6 +44,11 @@
 <div align="center">
 <sub>📊 Live tracker :&nbsp;<a href="https://docs.google.com/spreadsheets/d/1ZML9h4zXsLC8KIx6g4DR-lsSJ7VzN-aj-Meo9Lrdt7w/edit?usp=sharing">My Self-Education Sheet</a></sub>
 </div>
+
+<br/>
+
+<!-- ===================== COMMUNITY ===================== -->
+<img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/community.svg" alt="Community" width="100%"/>
 
 <br/>
 
@@ -76,7 +75,14 @@
 <br/>
 
 <!-- ===================== COMPETITIVE PROGRAMMING ===================== -->
-<img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/competitive.svg" alt="Competitive Programming" width="100%"/>
+<h3>&nbsp;&nbsp;Competitive Programming</h3>
+
+<p align="center">
+  <a href="https://codeforces.com/profile/sidi_maadh"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/cp/codeforces.svg" height="100" alt="Codeforces"/></a>&nbsp;
+  <a href="https://leetcode.com/u/sidi_maadh/"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/cp/leetcode.svg" height="100" alt="LeetCode"/></a>&nbsp;
+  <a href="https://www.codechef.com/users/sidi_maadh"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/cp/codechef.svg" height="100" alt="CodeChef"/></a>&nbsp;
+  <a href="https://www.hackerrank.com/profile/sidi_maadh"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/cp/hackerrank.svg" height="100" alt="HackerRank"/></a>
+</p>
 
 <br/>
 
