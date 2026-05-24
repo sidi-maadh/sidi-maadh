@@ -36,20 +36,20 @@
 <!-- ===================== GITHUB STATS ===================== -->
 <h3>&nbsp;&nbsp;GitHub Analytics</h3>
 
-<table>
-<tr>
-<td width="50%">
 
-<img src="https://github-readme-stats.vercel.app/api?username=sidi-maadh&show_icons=true&hide_border=true&bg_color=0a0c10&title_color=a78bfa&icon_color=60a5fa&text_color=aab2c5&count_private=true&rank_icon=github" width="100%"/>
 
-</td>
-<td width="50%">
+<div align="center">
+  <img width="100%" src="https://github-profile-trophy.vercel.app/?username=sidi-maadh&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7" alt="GitHub Trophies" />
+</div>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs?username=sidi-maadh&layout=compact&hide_border=true&bg_color=0a0c10&title_color=a78bfa&text_color=aab2c5&langs_count=8" width="100%"/>
+<div align="center">
+  <img width="49%" height="195px" src="https://github-readme-stats-salesp07.vercel.app/api?username=sidi-maadh&show_icons=true&count_private=true&hide_border=true&title_color=6C63FF&icon_color=6C63FF&text_color=c9d1d9&bg_color=0d1117" alt="Sidi Maadh github stats" />
+  <img width="49%" height="195px" src="https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=sidi-maadh&layout=compact&hide_border=true&title_color=6C63FF&text_color=c9d1d9&bg_color=0d1117" />
+</div>
 
-</td>
-</tr>
-</table>
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=sidi-maadh&bg_color=0d1117&color=6C63FF&line=6C63FF&point=c9d1d9&area=true&hide_border=true" alt="Activity Graph" />
+</div>
 
 <div align="center">
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=sidi-maadh&hide_border=true&background=0a0c10&stroke=222831&ring=a78bfa&fire=60a5fa&currStreakLabel=a78bfa&sideLabels=aab2c5&dates=6b7280&currStreakNum=f0f3f9&sideNums=f0f3f9" width="80%"/>
