@@ -2,11 +2,11 @@
 <img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/header.svg" alt="Sidi Chrif Ahmed Maadh — AI / ML Engineer" width="100%"/>
 
 <p align="center">
-  <a href="mailto:sidichrifahdmaadh@gmail.com"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/email.svg" height="40" alt="Email"/></a>&nbsp;
-  <a href="https://www.linkedin.com/in/sidichrifahmedmaadh/"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/linkedin.svg" height="40" alt="LinkedIn"/></a>&nbsp;
-  <a href="https://twitter.com/SidiMaadh"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/twitter.svg" height="40" alt="Twitter"/></a>&nbsp;
-  <a href="http://www.youtube.com/@ChingueTech"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/youtube.svg" height="40" alt="YouTube"/></a>&nbsp;
-  <a href="https://drive.google.com/file/d/1w5D3iPeZThQWXO-vnhodsMFtNqpmB9u5/view"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/resume.svg" height="40" alt="Resume"/></a>
+  <a href="mailto:sidichrifahdmaadh@gmail.com"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/social/email.svg" height="40" alt="Email"/></a>&nbsp;
+  <a href="https://www.linkedin.com/in/sidichrifahmedmaadh/"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/social/linkedin.svg" height="40" alt="LinkedIn"/></a>&nbsp;
+  <a href="https://twitter.com/SidiMaadh"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/social/twitter.svg" height="40" alt="Twitter"/></a>&nbsp;
+  <a href="http://www.youtube.com/@ChingueTech"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/social/youtube.svg" height="40" alt="YouTube"/></a>&nbsp;
+  <a href="https://drive.google.com/file/d/1w5D3iPeZThQWXO-vnhodsMFtNqpmB9u5/view"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/social/resume.svg" height="40" alt="Resume"/></a>
 </p>
 
 <br/>
@@ -22,10 +22,9 @@
 <br/>
 
 <!-- ===================== FEATURED PROJECTS ===================== -->
-<!-- <h3>&nbsp;&nbsp;Featured Projects</h3>
-
-<div align="center">
-<a href="https://github.com/sidi-maadh/MachineLearning-And-DeepLearning-Templates"><img width="49%" src=" &theme=react&bg_color=0d1117&border_color=222831&title_color=6C63FF&icon_color=6C63FF&text_color=c9d1d9"/></a> -->
+<a href="https://github.com/sidi-maadh?tab=repositories">
+<img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/projects.svg" alt="Latest Projects" width="100%"/>
+</a>
 
 <br/>
 
@@ -74,11 +73,18 @@
 <h3>&nbsp;&nbsp;Competitive Programming</h3>
 
 <p align="center">
-  <a href="https://codeforces.com/profile/sidi_maadh"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/codeforces.svg" height="100" alt="Codeforces"/></a>&nbsp;
-  <a href="https://leetcode.com/u/sidi_maadh/"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/leetcode.svg" height="100" alt="LeetCode"/></a>&nbsp;
-  <a href="https://www.codechef.com/users/sidi_maadh"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/codechef.svg" height="100" alt="CodeChef"/></a>&nbsp;
-  <a href="https://www.hackerrank.com/profile/sidi_maadh"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/hackerrank.svg" height="100" alt="HackerRank"/></a>
+  <a href="https://codeforces.com/profile/sidi_maadh"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/cp/codeforces.svg" height="100" alt="Codeforces"/></a>&nbsp;
+  <a href="https://leetcode.com/u/sidi_maadh/"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/cp/leetcode.svg" height="100" alt="LeetCode"/></a>&nbsp;
+  <a href="https://www.codechef.com/users/sidi_maadh"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/cp/codechef.svg" height="100" alt="CodeChef"/></a>&nbsp;
+  <a href="https://www.hackerrank.com/profile/sidi_maadh"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/cp/hackerrank.svg" height="100" alt="HackerRank"/></a>
 </p>
+
+<br/>
+
+<!-- ===================== LATEST YOUTUBE ===================== -->
+<a href="https://www.youtube.com/@ChingueTech">
+<img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/youtube_latest.svg" alt="Latest YouTube video" width="100%"/>
+</a>
 
 <br/>
 
