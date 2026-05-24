@@ -11,6 +11,9 @@ from datetime import date
 
 SHEET_CSV_URL = os.environ.get("SHEET_CSV_URL", "")
 
+BIRTH_DATE = date(2002, 1, 10)
+LIFE_EXPECTANCY_YEARS = 63
+
 PURPLE = "#8b5cf6"
 
 
@@ -82,14 +85,31 @@ def build_svg(subjects, total):
 
     today = date.today().isoformat()
 
-    return f'''<svg width="900" height="430" viewBox="0 0 900 430" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI', system-ui, sans-serif">
+    # --- Progress calculations ---
+    today_d = date.today()
+    year_start = date(today_d.year, 1, 1)
+    days_passed = (today_d - year_start).days
+    days_in_year = 366 if (today_d.year % 4 == 0 and (today_d.year % 100 != 0 or today_d.year % 400 == 0)) else 365
+    days_remaining = days_in_year - days_passed
+    year_pct = round(days_passed / days_in_year * 100)
+
+    life_days = (today_d - BIRTH_DATE).days
+    age_years = life_days // 365
+    age_months = life_days // 30
+    life_pct = round(age_years / LIFE_EXPECTANCY_YEARS * 100)
+
+    circ = 138
+    year_offset = round(circ * (1 - days_passed / days_in_year))
+    life_offset = round(circ * (1 - age_years / LIFE_EXPECTANCY_YEARS))
+
+    return f'''<svg width="900" height="540" viewBox="0 0 900 540" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI', system-ui, sans-serif">
   <defs>
     <linearGradient id="ebg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0a0c10"/><stop offset="1" stop-color="#10131a"/></linearGradient>
     <linearGradient id="eacc" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8b5cf6"/><stop offset="1" stop-color="#3b82f6"/></linearGradient>
     <linearGradient id="barg" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#8b5cf6"/><stop offset="1" stop-color="#6366f1"/></linearGradient>
   </defs>
-  <rect width="900" height="430" rx="16" fill="url(#ebg)"/>
-  <rect x="0.5" y="0.5" width="899" height="429" rx="16" fill="none" stroke="#ffffff" stroke-opacity="0.08"/>
+  <rect width="900" height="540" rx="16" fill="url(#ebg)"/>
+  <rect x="0.5" y="0.5" width="899" height="539" rx="16" fill="none" stroke="#ffffff" stroke-opacity="0.08"/>
   <g transform="translate(40, 40)">
     <rect x="0" y="-14" width="4" height="20" rx="2" fill="url(#eacc)"/>
     <text x="16" y="2" fill="#f0f3f9" font-size="16" font-weight="700">Self Education</text>
@@ -103,6 +123,21 @@ def build_svg(subjects, total):
   <text x="40" y="172" fill="#6b7280" font-size="11" font-weight="600" letter-spacing="1">HOURS BY FIELD</text>
   <line x1="158" y1="168" x2="860" y2="168" stroke="#ffffff" stroke-opacity="0.06"/>
 {chr(10).join(bars)}
+  <line x1="40" y1="{y+10}" x2="860" y2="{y+10}" stroke="#ffffff" stroke-opacity="0.07"/>
+  <g transform="translate(40, {y+24})">
+    <circle cx="26" cy="26" r="22" fill="none" stroke="#161a21" stroke-width="6"/>
+    <circle cx="26" cy="26" r="22" fill="none" stroke="#8b5cf6" stroke-width="6" stroke-linecap="round" stroke-dasharray="{circ}" stroke-dashoffset="{year_offset}" transform="rotate(-90 26 26)"/>
+    <text x="26" y="31" text-anchor="middle" fill="#f0f3f9" font-size="13" font-weight="700">{year_pct}%</text>
+    <text x="62" y="22" fill="#e6eaf2" font-size="13" font-weight="600">Year Progress</text>
+    <text x="62" y="40" fill="#8b93a7" font-size="11.5">{days_passed} days passed · {days_remaining} remaining</text>
+  </g>
+  <g transform="translate(470, {y+24})">
+    <circle cx="26" cy="26" r="22" fill="none" stroke="#161a21" stroke-width="6"/>
+    <circle cx="26" cy="26" r="22" fill="none" stroke="#3b82f6" stroke-width="6" stroke-linecap="round" stroke-dasharray="{circ}" stroke-dashoffset="{life_offset}" transform="rotate(-90 26 26)"/>
+    <text x="26" y="31" text-anchor="middle" fill="#f0f3f9" font-size="13" font-weight="700">{life_pct}%</text>
+    <text x="62" y="22" fill="#e6eaf2" font-size="13" font-weight="600">Life Progress</text>
+    <text x="62" y="40" fill="#8b93a7" font-size="11.5">{age_years} years · {age_months} months — keep building</text>
+  </g>
 </svg>
 '''
 
