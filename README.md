@@ -1,14 +1,16 @@
 <!-- ===================== HEADER ===================== -->
 <img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/header.svg" alt="Sidi Chrif Ahmed Maadh — AI / ML Engineer" width="100%"/>
 
+<img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/socials.svg" alt="Socials" width="100%"/>
+
 <div align="center">
-
-<a href="mailto:sidichrifahdmaadh@gmail.com"><img src="https://img.shields.io/badge/Email-0a0c10?style=for-the-badge&logo=gmail&logoColor=a78bfa&labelColor=0a0c10"/></a>
-<a href="https://www.linkedin.com/in/sidichrifahmedmaadh/"><img src="https://img.shields.io/badge/LinkedIn-0a0c10?style=for-the-badge&logo=linkedin&logoColor=a78bfa&labelColor=0a0c10"/></a>
-<a href="https://codeforces.com/profile/sidi_maadh"><img src="https://img.shields.io/badge/Codeforces-0a0c10?style=for-the-badge&logo=codeforces&logoColor=a78bfa&labelColor=0a0c10"/></a>
-<a href="http://www.youtube.com/@ChingueTech"><img src="https://img.shields.io/badge/YouTube-0a0c10?style=for-the-badge&logo=youtube&logoColor=a78bfa&labelColor=0a0c10"/></a>
-<a href="https://drive.google.com/file/d/1w5D3iPeZThQWXO-vnhodsMFtNqpmB9u5/view"><img src="https://img.shields.io/badge/Resume-0a0c10?style=for-the-badge&logo=googledrive&logoColor=a78bfa&labelColor=0a0c10"/></a>
-
+<sub>
+<a href="mailto:sidichrifahdmaadh@gmail.com">Email</a> &nbsp;·&nbsp;
+<a href="https://www.linkedin.com/in/sidichrifahmedmaadh/">LinkedIn</a> &nbsp;·&nbsp;
+<a href="https://twitter.com/SidiMaadh">Twitter</a> &nbsp;·&nbsp;
+<a href="http://www.youtube.com/@ChingueTech">YouTube</a> &nbsp;·&nbsp;
+<a href="https://drive.google.com/file/d/1w5D3iPeZThQWXO-vnhodsMFtNqpmB9u5/view">Resume</a>
+</sub>
 </div>
 
 <br/>
