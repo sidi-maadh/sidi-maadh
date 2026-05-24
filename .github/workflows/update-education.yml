@@ -47,7 +47,7 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add assets/projects.svg assets/projects_urls.txt assets/education.svg assets/community.svg assets/cp/codeforces.svg assets/youtube_latest.svg assets/youtube_latest_id.txt
+          git add -A assets/
           if git diff --staged --quiet; then
             echo "Aucun changement."
           else
