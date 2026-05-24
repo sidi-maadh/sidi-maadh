@@ -22,9 +22,9 @@
 <br/>
 
 <!-- ===================== FEATURED PROJECTS ===================== -->
-<a href="https://github.com/sidi-maadh?tab=repositories">
-<img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/projects.svg" alt="Latest Projects" width="100%"/>
-</a>
+<div align="center"> <a href="https://github.com/sidi-maadh?tab=repositories">
+  <img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/projects.svg" alt="Latest Projects" width="100%"/></a>
+</div>
 
 <br/>
 
