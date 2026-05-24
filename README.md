@@ -18,6 +18,11 @@
 
 <br/>
 
+<!-- ===================== COMMUNITY ===================== -->
+<img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/community.svg" alt="Community" width="100%"/>
+
+<br/>
+
 <!-- ===================== TECH STACK ===================== -->
 <img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/techstack.svg" alt="Tech Stack" width="100%"/>
 
@@ -46,11 +51,6 @@
 
 <br/>
 
-<!-- ===================== COMMUNITY ===================== -->
-<img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/community.svg" alt="Community" width="100%"/>
-
-<br/>
-
 <!-- ===================== GITHUB STATS ===================== -->
 <h3>&nbsp;&nbsp;GitHub Analytics</h3>
 
@@ -75,15 +75,6 @@
 
 <!-- ===================== COMPETITIVE PROGRAMMING ===================== -->
 <img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/competitive.svg" alt="Competitive Programming" width="100%"/>
-
-<div align="center">
-
-[![Codeforces](https://img.shields.io/badge/Codeforces-1F8ACB?style=flat-square&logo=codeforces&logoColor=white)](https://codeforces.com/profile/sidi_maadh)
-[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=white)](https://leetcode.com/u/sidi_maadh/)
-[![CodeChef](https://img.shields.io/badge/CodeChef-5B4638?style=flat-square&logo=codechef&logoColor=white)](https://www.codechef.com/users/sidi_maadh)
-[![HackerRank](https://img.shields.io/badge/HackerRank-2EC866?style=flat-square&logo=hackerrank&logoColor=white)](https://www.hackerrank.com/profile/sidi_maadh)
-
-</div>
 
 <br/>
 
