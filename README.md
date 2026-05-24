@@ -72,6 +72,8 @@
 <br/>
 
 <!-- ===================== CONTRIBUTION SNAKE ===================== -->
+<h3>&nbsp;&nbsp;🐍 Contribution Graph</h3> 
+
 <div align="center">
 <img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/output/github-contribution-grid-snake-dark.svg" width="100%"/>
 </div>
