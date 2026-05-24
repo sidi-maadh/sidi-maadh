@@ -98,12 +98,12 @@ def build_svg(subjects, total):
     age_months = life_days // 30
     life_pct = round(age_years / LIFE_EXPECTANCY_YEARS * 100)
 
-    circ = 138
+    circ = 201
     year_offset = round(circ * (1 - days_passed / days_in_year))
     life_offset = round(circ * (1 - age_years / LIFE_EXPECTANCY_YEARS))
 
-    rings_y = y + 24
-    svg_h = rings_y + 40 + 20
+    rings_y = y + 30
+    svg_h = rings_y + 64 + 24
 
     return f'''<svg width="900" height="{svg_h}" viewBox="0 0 900 {svg_h}" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI', system-ui, sans-serif">
   <defs>
@@ -126,20 +126,20 @@ def build_svg(subjects, total):
   <text x="40" y="172" fill="#6b7280" font-size="11" font-weight="600" letter-spacing="1">HOURS BY FIELD</text>
   <line x1="158" y1="168" x2="860" y2="168" stroke="#ffffff" stroke-opacity="0.06"/>
 {chr(10).join(bars)}
-  <line x1="40" y1="{y+10}" x2="860" y2="{y+10}" stroke="#ffffff" stroke-opacity="0.07"/>
+  <line x1="40" y1="{y+12}" x2="860" y2="{y+12}" stroke="#ffffff" stroke-opacity="0.07"/>
   <g transform="translate(40, {rings_y})">
-    <circle cx="26" cy="26" r="22" fill="none" stroke="#161a21" stroke-width="6"/>
-    <circle cx="26" cy="26" r="22" fill="none" stroke="#8b5cf6" stroke-width="6" stroke-linecap="round" stroke-dasharray="{circ}" stroke-dashoffset="{year_offset}" transform="rotate(-90 26 26)"/>
-    <text x="26" y="31" text-anchor="middle" fill="#f0f3f9" font-size="13" font-weight="700">{year_pct}%</text>
-    <text x="62" y="22" fill="#e6eaf2" font-size="13" font-weight="600">Year Progress</text>
-    <text x="62" y="40" fill="#8b93a7" font-size="11.5">{days_passed} days passed · {days_remaining} remaining</text>
+    <circle cx="32" cy="32" r="32" fill="none" stroke="#161a21" stroke-width="8"/>
+    <circle cx="32" cy="32" r="32" fill="none" stroke="#8b5cf6" stroke-width="8" stroke-linecap="round" stroke-dasharray="{circ}" stroke-dashoffset="{year_offset}" transform="rotate(-90 32 32)"/>
+    <text x="32" y="38" text-anchor="middle" fill="#f0f3f9" font-size="16" font-weight="700">{year_pct}%</text>
+    <text x="82" y="28" fill="#e6eaf2" font-size="16" font-weight="600">Year Progress</text>
+    <text x="82" y="50" fill="#8b93a7" font-size="13">{days_passed} days passed · {days_remaining} remaining</text>
   </g>
   <g transform="translate(470, {rings_y})">
-    <circle cx="26" cy="26" r="22" fill="none" stroke="#161a21" stroke-width="6"/>
-    <circle cx="26" cy="26" r="22" fill="none" stroke="#3b82f6" stroke-width="6" stroke-linecap="round" stroke-dasharray="{circ}" stroke-dashoffset="{life_offset}" transform="rotate(-90 26 26)"/>
-    <text x="26" y="31" text-anchor="middle" fill="#f0f3f9" font-size="13" font-weight="700">{life_pct}%</text>
-    <text x="62" y="22" fill="#e6eaf2" font-size="13" font-weight="600">Life Progress</text>
-    <text x="62" y="40" fill="#8b93a7" font-size="11.5">{age_years} years · {age_months} months — keep building</text>
+    <circle cx="32" cy="32" r="32" fill="none" stroke="#161a21" stroke-width="8"/>
+    <circle cx="32" cy="32" r="32" fill="none" stroke="#3b82f6" stroke-width="8" stroke-linecap="round" stroke-dasharray="{circ}" stroke-dashoffset="{life_offset}" transform="rotate(-90 32 32)"/>
+    <text x="32" y="38" text-anchor="middle" fill="#f0f3f9" font-size="16" font-weight="700">{life_pct}%</text>
+    <text x="82" y="28" fill="#e6eaf2" font-size="16" font-weight="600">Life Progress</text>
+    <text x="82" y="50" fill="#8b93a7" font-size="13">{age_years} years · {age_months} months — keep building</text>
   </g>
 </svg>
 '''
