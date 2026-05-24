@@ -1,0 +1,134 @@
+<svg width="860" height="310" viewBox="0 0 860 310" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117"/>
+      <stop offset="100%" style="stop-color:#161b22"/>
+    </linearGradient>
+  </defs>
+  <rect width="860" height="310" rx="12" fill="url(#bg3)" stroke="#30363d" stroke-width="1"/>
+
+  <!-- Title bar -->
+  <rect x="0" y="0" width="860" height="48" rx="12" fill="#161b22"/>
+  <rect x="0" y="36" width="860" height="12" fill="#161b22"/>
+  <circle cx="22" cy="24" r="6" fill="#ff5f57"/>
+  <circle cx="42" cy="24" r="6" fill="#febc2e"/>
+  <circle cx="62" cy="24" r="6" fill="#28c840"/>
+  <text x="430" y="29" text-anchor="middle" fill="#e6edf3" font-family="JetBrains Mono,monospace" font-size="13" font-weight="600">🛠️ Tech Stack</text>
+
+  <!-- AI / ML label -->
+  <text x="30" y="76" fill="#a371f7" font-family="Segoe UI,sans-serif" font-size="11" font-weight="600" letter-spacing="1">AI / ML</text>
+  <line x1="78" y1="72" x2="840" y2="72" stroke="#21262d" stroke-width="1"/>
+
+  <!-- AI chips row -->
+  <!-- PyTorch -->
+  <rect x="30" y="82" width="86" height="26" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+  <circle cx="44" cy="95" r="5" fill="#ee4c2c"/>
+  <text x="56" y="100" fill="#c9d1d9" font-family="Segoe UI,sans-serif" font-size="11" font-weight="500">PyTorch</text>
+  <!-- TensorFlow -->
+  <rect x="124" y="82" width="96" height="26" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+  <circle cx="138" cy="95" r="5" fill="#ff6f00"/>
+  <text x="150" y="100" fill="#c9d1d9" font-family="Segoe UI,sans-serif" font-size="11" font-weight="500">TensorFlow</text>
+  <!-- Scikit-learn -->
+  <rect x="228" y="82" width="96" height="26" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+  <circle cx="242" cy="95" r="5" fill="#f7931e"/>
+  <text x="254" y="100" fill="#c9d1d9" font-family="Segoe UI,sans-serif" font-size="11" font-weight="500">Scikit-learn</text>
+  <!-- HuggingFace -->
+  <rect x="332" y="82" width="102" height="26" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+  <circle cx="346" cy="95" r="5" fill="#ffd21e"/>
+  <text x="358" y="100" fill="#c9d1d9" font-family="Segoe UI,sans-serif" font-size="11" font-weight="500">HuggingFace</text>
+  <!-- LangChain -->
+  <rect x="442" y="82" width="90" height="26" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+  <circle cx="456" cy="95" r="5" fill="#00a67e"/>
+  <text x="468" y="100" fill="#c9d1d9" font-family="Segoe UI,sans-serif" font-size="11" font-weight="500">LangChain</text>
+  <!-- Pandas -->
+  <rect x="540" y="82" width="72" height="26" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+  <circle cx="554" cy="95" r="5" fill="#150458"/>
+  <text x="566" y="100" fill="#c9d1d9" font-family="Segoe UI,sans-serif" font-size="11" font-weight="500">Pandas</text>
+  <!-- NumPy -->
+  <rect x="620" y="82" width="68" height="26" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+  <circle cx="634" cy="95" r="5" fill="#013243"/>
+  <text x="646" y="100" fill="#c9d1d9" font-family="Segoe UI,sans-serif" font-size="11" font-weight="500">NumPy</text>
+  <!-- OpenCV -->
+  <rect x="696" y="82" width="76" height="26" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+  <circle cx="710" cy="95" r="5" fill="#5c3ee8"/>
+  <text x="722" y="100" fill="#c9d1d9" font-family="Segoe UI,sans-serif" font-size="11" font-weight="500">OpenCV</text>
+
+  <!-- Languages label -->
+  <text x="30" y="136" fill="#58a6ff" font-family="Segoe UI,sans-serif" font-size="11" font-weight="600" letter-spacing="1">LANGUAGES</text>
+  <line x1="104" y1="132" x2="840" y2="132" stroke="#21262d" stroke-width="1"/>
+
+  <!-- Python -->
+  <rect x="30" y="142" width="74" height="26" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+  <circle cx="44" cy="155" r="5" fill="#3776ab"/>
+  <text x="56" y="160" fill="#c9d1d9" font-family="Segoe UI,sans-serif" font-size="11" font-weight="500">Python</text>
+  <!-- C++ -->
+  <rect x="112" y="142" width="58" height="26" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+  <circle cx="126" cy="155" r="5" fill="#00599c"/>
+  <text x="138" y="160" fill="#c9d1d9" font-family="Segoe UI,sans-serif" font-size="11" font-weight="500">C++</text>
+  <!-- Java -->
+  <rect x="178" y="142" width="60" height="26" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+  <circle cx="192" cy="155" r="5" fill="#ed8b00"/>
+  <text x="204" y="160" fill="#c9d1d9" font-family="Segoe UI,sans-serif" font-size="11" font-weight="500">Java</text>
+  <!-- JavaScript -->
+  <rect x="246" y="142" width="92" height="26" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+  <circle cx="260" cy="155" r="5" fill="#f7df1e"/>
+  <text x="272" y="160" fill="#c9d1d9" font-family="Segoe UI,sans-serif" font-size="11" font-weight="500">JavaScript</text>
+  <!-- TypeScript -->
+  <rect x="346" y="142" width="92" height="26" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+  <circle cx="360" cy="155" r="5" fill="#007acc"/>
+  <text x="372" y="160" fill="#c9d1d9" font-family="Segoe UI,sans-serif" font-size="11" font-weight="500">TypeScript</text>
+
+  <!-- Full-Stack label -->
+  <text x="30" y="196" fill="#3fb950" font-family="Segoe UI,sans-serif" font-size="11" font-weight="600" letter-spacing="1">FULL-STACK · MOBILE</text>
+  <line x1="170" y1="192" x2="840" y2="192" stroke="#21262d" stroke-width="1"/>
+
+  <!-- React -->
+  <rect x="30" y="202" width="68" height="26" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+  <circle cx="44" cy="215" r="5" fill="#61dafb"/>
+  <text x="56" y="220" fill="#c9d1d9" font-family="Segoe UI,sans-serif" font-size="11" font-weight="500">React</text>
+  <!-- Spring Boot -->
+  <rect x="106" y="202" width="96" height="26" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+  <circle cx="120" cy="215" r="5" fill="#6db33f"/>
+  <text x="132" y="220" fill="#c9d1d9" font-family="Segoe UI,sans-serif" font-size="11" font-weight="500">Spring Boot</text>
+  <!-- Django -->
+  <rect x="210" y="202" width="72" height="26" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+  <circle cx="224" cy="215" r="5" fill="#092e20"/>
+  <text x="236" y="220" fill="#c9d1d9" font-family="Segoe UI,sans-serif" font-size="11" font-weight="500">Django</text>
+  <!-- Flutter -->
+  <rect x="290" y="202" width="70" height="26" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+  <circle cx="304" cy="215" r="5" fill="#02569b"/>
+  <text x="316" y="220" fill="#c9d1d9" font-family="Segoe UI,sans-serif" font-size="11" font-weight="500">Flutter</text>
+  <!-- Tailwind -->
+  <rect x="368" y="202" width="78" height="26" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+  <circle cx="382" cy="215" r="5" fill="#38b2ac"/>
+  <text x="394" y="220" fill="#c9d1d9" font-family="Segoe UI,sans-serif" font-size="11" font-weight="500">Tailwind</text>
+
+  <!-- DevOps label -->
+  <text x="30" y="256" fill="#d29922" font-family="Segoe UI,sans-serif" font-size="11" font-weight="600" letter-spacing="1">DATABASE · DEVOPS · CLOUD</text>
+  <line x1="222" y1="252" x2="840" y2="252" stroke="#21262d" stroke-width="1"/>
+
+  <!-- PostgreSQL -->
+  <rect x="30" y="262" width="92" height="26" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+  <circle cx="44" cy="275" r="5" fill="#316192"/>
+  <text x="56" y="280" fill="#c9d1d9" font-family="Segoe UI,sans-serif" font-size="11" font-weight="500">PostgreSQL</text>
+  <!-- MySQL -->
+  <rect x="130" y="262" width="66" height="26" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+  <circle cx="144" cy="275" r="5" fill="#005c84"/>
+  <text x="156" y="280" fill="#c9d1d9" font-family="Segoe UI,sans-serif" font-size="11" font-weight="500">MySQL</text>
+  <!-- Firebase -->
+  <rect x="204" y="262" width="76" height="26" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+  <circle cx="218" cy="275" r="5" fill="#ffca28"/>
+  <text x="230" y="280" fill="#c9d1d9" font-family="Segoe UI,sans-serif" font-size="11" font-weight="500">Firebase</text>
+  <!-- Docker -->
+  <rect x="288" y="262" width="70" height="26" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+  <circle cx="302" cy="275" r="5" fill="#2ca5e0"/>
+  <text x="314" y="280" fill="#c9d1d9" font-family="Segoe UI,sans-serif" font-size="11" font-weight="500">Docker</text>
+  <!-- Git -->
+  <rect x="366" y="262" width="56" height="26" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+  <circle cx="380" cy="275" r="5" fill="#f05032"/>
+  <text x="392" y="280" fill="#c9d1d9" font-family="Segoe UI,sans-serif" font-size="11" font-weight="500">Git</text>
+  <!-- AWS -->
+  <rect x="430" y="262" width="58" height="26" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+  <circle cx="444" cy="275" r="5" fill="#ff9900"/>
+  <text x="456" y="280" fill="#c9d1d9" font-family="Segoe UI,sans-serif" font-size="11" font-weight="500">AWS</text>
+</svg>
