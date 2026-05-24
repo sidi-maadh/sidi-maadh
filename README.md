@@ -37,7 +37,7 @@
 <img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/education.svg" alt="Self Education" width="100%"/>
 
 <div align="center">
-<sub>📊 Live tracker:&nbsp;<a href="https://docs.google.com/spreadsheets/d/1ZML9h4zXsLC8KIx6g4DR-lsSJ7VzN-aj-Meo9Lrdt7w/edit?usp=sharing">My Self-Education Sheet</a></sub>
+<sub>📊 Live tracker :&nbsp;<a href="https://docs.google.com/spreadsheets/d/1ZML9h4zXsLC8KIx6g4DR-lsSJ7VzN-aj-Meo9Lrdt7w/edit?usp=sharing">My Self-Education Sheet</a></sub>
 </div>
 
 <br/>
