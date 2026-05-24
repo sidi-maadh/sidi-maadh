@@ -22,14 +22,10 @@
 <br/>
 
 <!-- ===================== FEATURED PROJECTS ===================== -->
-<h3>&nbsp;&nbsp;Featured Projects</h3>
+<!-- <h3>&nbsp;&nbsp;Featured Projects</h3>
 
 <div align="center">
-<a href="https://github.com/sidi-maadh/MachineLearning-And-DeepLearning-Templates"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=sidi-maadh&repo=MachineLearning-And-DeepLearning-Templates&theme=react&bg_color=0d1117&border_color=222831&title_color=6C63FF&icon_color=6C63FF&text_color=c9d1d9"/></a>
-<a href="https://github.com/sidi-maadh/MySolutions"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=sidi-maadh&repo=MySolutions&theme=react&bg_color=0d1117&border_color=222831&title_color=6C63FF&icon_color=6C63FF&text_color=c9d1d9"/></a>
-<a href="https://github.com/sidi-maadh/CleanYourEar-Game"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=sidi-maadh&repo=CleanYourEar-Game&theme=react&bg_color=0d1117&border_color=222831&title_color=6C63FF&icon_color=6C63FF&text_color=c9d1d9"/></a>
-<a href="https://github.com/sidi-maadh/SiteWeb_SOMAPR"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=sidi-maadh&repo=SiteWeb_SOMAPR&theme=react&bg_color=0d1117&border_color=222831&title_color=6C63FF&icon_color=6C63FF&text_color=c9d1d9"/></a>
-</div>
+<a href="https://github.com/sidi-maadh/MachineLearning-And-DeepLearning-Templates"><img width="49%" src=" &theme=react&bg_color=0d1117&border_color=222831&title_color=6C63FF&icon_color=6C63FF&text_color=c9d1d9"/></a> -->
 
 <br/>
 
