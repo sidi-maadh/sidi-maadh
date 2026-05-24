@@ -1,11 +1,11 @@
-<svg width="900" height="540" viewBox="0 0 900 540" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI', system-ui, sans-serif">
+<svg width="900" height="448" viewBox="0 0 900 448" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI', system-ui, sans-serif">
   <defs>
     <linearGradient id="ebg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0a0c10"/><stop offset="1" stop-color="#10131a"/></linearGradient>
     <linearGradient id="eacc" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8b5cf6"/><stop offset="1" stop-color="#3b82f6"/></linearGradient>
     <linearGradient id="barg" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#8b5cf6"/><stop offset="1" stop-color="#6366f1"/></linearGradient>
   </defs>
-  <rect width="900" height="540" rx="16" fill="url(#ebg)"/>
-  <rect x="0.5" y="0.5" width="899" height="539" rx="16" fill="none" stroke="#ffffff" stroke-opacity="0.08"/>
+  <rect width="900" height="448" rx="16" fill="url(#ebg)"/>
+  <rect x="0.5" y="0.5" width="899" height="447" rx="16" fill="none" stroke="#ffffff" stroke-opacity="0.08"/>
   <g transform="translate(40, 40)">
     <rect x="0" y="-14" width="4" height="20" rx="2" fill="url(#eacc)"/>
     <text x="16" y="2" fill="#f0f3f9" font-size="16" font-weight="700">Self Education</text>
