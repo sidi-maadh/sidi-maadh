@@ -1,0 +1,10 @@
+<svg width="210" height="110" viewBox="0 0 210 110" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI', system-ui, sans-serif">
+  <rect x="1" y="1" width="208" height="108" rx="12" fill="#13161c" stroke="#222831"/>
+  <rect x="1" y="1" width="208" height="4" rx="2" fill="#2EC866"/>
+  <g transform="translate(21,19)">
+      <rect x="0" y="0" width="24" height="24" rx="6" fill="#2ec866"/>
+      <path d="M8 6 v12 M16 6 v12 M8 12 h8" stroke="#0a0c10" stroke-width="2" fill="none" stroke-linecap="round"/></g>
+  <text x="60" y="36" fill="#8b93a7" font-size="12" font-weight="600" letter-spacing="0.3">HackerRank</text>
+  <text x="20" y="72" fill="#2EC866" font-size="21" font-weight="700">Gold</text>
+  <text x="20" y="94" fill="#6b7280" font-size="12">Problem solving</text>
+</svg>
