@@ -1,0 +1,10 @@
+<svg width="288" height="130" viewBox="0 0 288 130" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI', system-ui, sans-serif">
+  <rect x="1" y="1" width="286" height="128" rx="12" fill="#13161c" stroke="#222831"/>
+  <rect x="1" y="1" width="286" height="4" rx="2" fill="#da5b0b"/>
+  <path d="M20 30 a2 2 0 0 1 2 -2 h7 l2 2 h7 a2 2 0 0 1 2 2 v7 a2 2 0 0 1 -2 2 h-16 a2 2 0 0 1 -2 -2 z" fill="#da5b0b" fill-opacity="0.6"/>
+  <text x="48" y="38" fill="#e6eaf2" font-size="14" font-weight="700">Intro_to_AI_CourseMater…</text>
+  <text x="20" y="60" fill="#8b93a7" font-size="12">No description provided.</text>
+  <circle cx="24" cy="108" r="5" fill="#da5b0b"/>
+  <text x="34" y="112" fill="#8b93a7" font-size="11">Jupyter Notebook</text>
+  <text x="268" y="112" fill="#fbbf24" font-size="11" text-anchor="end">★ 0</text>
+</svg>

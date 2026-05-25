@@ -1,0 +1,8 @@
+<svg width="210" height="80" viewBox="0 0 210 80" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI', system-ui, sans-serif">
+  <rect x="1" y="1" width="208" height="78" rx="12" fill="#13161c" stroke="#222831"/>
+  <rect x="1" y="1" width="208" height="4" rx="2" fill="#3b82f6"/>
+  <circle cx="30" cy="44" r="16" fill="#3b82f6" fill-opacity="0.15"/>
+  <path d="M30 34 l3.1 6.7 l7.2 0.8 l-5.3 5 l1.3 7.2 l-6.3 -3.4 l-6.3 3.4 l1.3 -7.2 l-5.3 -5 l7.2 -0.8 z" fill="#60a5fa"/>
+  <text x="56" y="36" fill="#8b93a7" font-size="11" font-weight="600" letter-spacing="0.5">STARS EARNED</text>
+  <text x="56" y="58" fill="#f0f3f9" font-size="20" font-weight="700">6</text>
+</svg>
