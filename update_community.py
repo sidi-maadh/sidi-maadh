@@ -46,11 +46,17 @@ def fetch_stats():
 def fetch_rank():
     try:
         url = f"https://user-badge.committers.top/{COUNTRY}/{USERNAME}.svg"
-        req = urllib.request.Request(url, headers={"User-Agent": "profile-stats"})
+        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
         with urllib.request.urlopen(req, timeout=20) as r:
             svg = r.read().decode("utf-8", errors="replace")
-        m = re.search(r"#?\s*(\d+)", svg)
-        return m.group(1) if m else "—"
+        # Le badge contient "... rank: N" ou "#N" — on cible le nombre près de 'rank'
+        m = (re.search(r"rank[:\s#]*?(\d+)", svg, re.IGNORECASE)
+             or re.search(r"#\s*(\d+)", svg))
+        if m:
+            return m.group(1)
+        # fallback : prendre le dernier nombre (souvent le rang) plutôt que le premier
+        nums = re.findall(r">\s*#?(\d+)\s*<", svg)
+        return nums[-1] if nums else "—"
     except Exception:
         return "—"
 
