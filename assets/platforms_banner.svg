@@ -1,0 +1,27 @@
+<svg width="900" height="90" viewBox="0 0 900 90" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI', system-ui, sans-serif">
+  <defs>
+    <linearGradient id="bnbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0a0c10"/><stop offset="1" stop-color="#10131a"/></linearGradient>
+    <linearGradient id="bnacc" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#8b5cf6"/><stop offset="0.5" stop-color="#6366f1"/><stop offset="1" stop-color="#3b82f6"/></linearGradient>
+    <radialGradient id="bnglow" cx="0.9" cy="0.3" r="0.7"><stop offset="0" stop-color="#6366f1" stop-opacity="0.15"/><stop offset="1" stop-color="#6366f1" stop-opacity="0"/></radialGradient>
+    <pattern id="bngrid" width="26" height="26" patternUnits="userSpaceOnUse"><path d="M26 0 L0 0 0 26" fill="none" stroke="#ffffff" stroke-opacity="0.03" stroke-width="1"/></pattern>
+  </defs>
+  <rect width="900" height="90" rx="16" fill="url(#bnbg)"/>
+  <rect width="900" height="90" rx="16" fill="url(#bngrid)"/>
+  <rect width="900" height="90" rx="16" fill="url(#bnglow)"/>
+  <rect x="0.5" y="0.5" width="899" height="89" rx="16" fill="none" stroke="#ffffff" stroke-opacity="0.08"/>
+  <rect x="0" y="0" width="900" height="3" rx="1.5" fill="url(#bnacc)"/>
+
+  <rect x="40" y="30" width="5" height="30" rx="2.5" fill="url(#bnacc)"/>
+  <text x="60" y="46" fill="#f0f3f9" font-size="24" font-weight="700" letter-spacing="-0.3">Coding Profiles &amp; Platforms</text>
+  <text x="61" y="70" fill="#8b93a7" font-size="13">Competitive Programming&#160;&#160;·&#160;&#160;Problem Solving&#160;&#160;·&#160;&#160;Cybersecurity&#160;&#160;·&#160;&#160;AI</text>
+
+  <!-- decorative icon cluster on the right -->
+  <g transform="translate(770, 28)" opacity="0.85">
+    <rect x="0" y="0" width="32" height="32" rx="8" fill="#8b5cf6" fill-opacity="0.12" stroke="#8b5cf6" stroke-opacity="0.3"/>
+    <path d="M9 11 l-4 5 l4 5 M23 11 l4 5 l-4 5 M18 9 l-4 14" stroke="#a78bfa" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g transform="translate(812, 28)" opacity="0.85">
+    <rect x="0" y="0" width="32" height="32" rx="8" fill="#3b82f6" fill-opacity="0.12" stroke="#3b82f6" stroke-opacity="0.3"/>
+    <path d="M16 6 L25 11 V21 L16 26 L7 21 V11 Z" fill="none" stroke="#60a5fa" stroke-width="2" stroke-linejoin="round"/>
+  </g>
+</svg>
