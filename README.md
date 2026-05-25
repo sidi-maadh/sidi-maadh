@@ -26,9 +26,9 @@
 
 <!-- PROJECTS:START -->
 <p align="center">
-  <a href="https://github.com/sidi-maadh/sidi-maadh"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/projects/p1.svg" width="32%" alt="Project 1"/></a>
-  <a href="https://github.com/sidi-maadh/MachineLearningSpecialization_Labs"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/projects/p2.svg" width="32%" alt="Project 2"/></a>
-  <a href="https://github.com/sidi-maadh/Intro_to_AI_CourseMaterials"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/projects/p3.svg" width="32%" alt="Project 3"/></a>
+  <a href="https://github.com/sidi-maadh?tab=repositories"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/projects/p1.svg" width="32%" alt="Project 1"/></a>
+  <a href="https://github.com/sidi-maadh?tab=repositories"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/projects/p2.svg" width="32%" alt="Project 2"/></a>
+  <a href="https://github.com/sidi-maadh?tab=repositories"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/projects/p3.svg" width="32%" alt="Project 3"/></a>
 </p>
 <!-- PROJECTS:END -->
 
@@ -68,8 +68,8 @@
 </div>
 
 <div align="center">
-  <img width="54%" src="https://github-readme-stats-salesp07.vercel.app/api?username=sidi-maadh&show_icons=true&count_private=true&hide_border=true&title_color=6C63FF&icon_color=6C63FF&text_color=c9d1d9&bg_color=0d1117" alt="Sidi Maadh github stats" />
-  <img width="44%" src="https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=sidi-maadh&layout=compact&hide_border=true&title_color=6C63FF&text_color=c9d1d9&bg_color=0d1117&langs_count=6" />
+  <img width="49%" src="https://github-readme-stats-salesp07.vercel.app/api?username=sidi-maadh&show_icons=true&count_private=true&hide_border=true&title_color=6C63FF&icon_color=6C63FF&text_color=c9d1d9&bg_color=0d1117" alt="Sidi Maadh github stats" />
+  <img width="49%" src="https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=sidi-maadh&layout=compact&hide_border=true&title_color=6C63FF&text_color=c9d1d9&bg_color=0d1117&langs_count=6" />
 </div>
 
 <div align="center">
@@ -86,22 +86,45 @@
 <h3>&nbsp;&nbsp;Competitive Programming</h3>
 
 <p align="center">
-  <a href="https://codeforces.com/profile/sidi_maadh"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/cp/codeforces.svg" width="23%" alt="Codeforces"/></a>
-  <a href="https://leetcode.com/u/sidi_maadh/"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/cp/leetcode.svg" width="23%" alt="LeetCode"/></a>
-  <a href="https://www.codechef.com/users/sidi_maadh"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/cp/codechef.svg" width="23%" alt="CodeChef"/></a>
-  <a href="https://www.hackerrank.com/profile/sidi_maadh"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/cp/hackerrank.svg" width="23%" alt="HackerRank"/></a>
+  <a href="https://codeforces.com/profile/sidi_maadh"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/cp/codeforces.svg" width="19%" alt="Codeforces"/></a>
+  <a href="https://leetcode.com/u/sidi_maadh/"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/cp/leetcode.svg" width="19%" alt="LeetCode"/></a>
+  <a href="https://www.codechef.com/users/sidi_maadh"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/cp/codechef.svg" width="19%" alt="CodeChef"/></a>
+  <a href="https://www.hackerrank.com/profile/sidi_maadh"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/cp/hackerrank.svg" width="19%" alt="HackerRank"/></a>
+  <a href="https://adventofcode.com/"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/cp/adventofcode.svg" width="19%" alt="Advent of Code"/></a>
 </p>
 
 <br/>
 
-<!-- ===================== PLATFORMS ===================== -->
-<h3>&nbsp;&nbsp;Cybersecurity &amp; AI Platforms</h3>
+<!-- ===================== PROBLEM SOLVING ===================== -->
+<h3>&nbsp;&nbsp;Problem Solving</h3>
 
 <p align="center">
-  <a href="https://app.hackthebox.com/users/sidiMaadh"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/platforms/hackthebox.svg" width="23%" alt="Hack The Box"/></a>
-  <a href="https://tryhackme.com/p/SidiMaadh"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/platforms/tryhackme.svg" width="23%" alt="TryHackMe"/></a>
-  <a href="https://www.kaggle.com/sidimaadh"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/platforms/kaggle.svg" width="23%" alt="Kaggle"/></a>
-  <a href="https://huggingface.co/sidiMaadh"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/platforms/huggingface.svg" width="23%" alt="Hugging Face"/></a>
+  <a href="https://cses.fi/user/300386"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/problemsolving/cses.svg" width="23%" alt="CSES"/></a>
+  <a href="https://www.codewars.com/users/sidi_maadh"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/problemsolving/codewars.svg" width="23%" alt="CodeWars"/></a>
+  <a href="https://www.geeksforgeeks.org/user/sidichrif2rzg/"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/problemsolving/geeksforgeeks.svg" width="23%" alt="GeeksforGeeks"/></a>
+  <a href="https://edabit.com/user/6hBNhkzozeJEKrYBb"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/problemsolving/edabit.svg" width="23%" alt="Edabit"/></a>
+</p>
+
+<br/>
+
+<!-- ===================== CYBERSECURITY ===================== -->
+<h3>&nbsp;&nbsp;Cybersecurity</h3>
+
+<p align="center">
+  <a href="https://app.hackthebox.com/users/sidiMaadh"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/cyber/hackthebox.svg" width="23%" alt="Hack The Box"/></a>
+  <a href="https://tryhackme.com/p/SidiMaadh"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/cyber/tryhackme.svg" width="23%" alt="TryHackMe"/></a>
+  <a href="https://cryptohack.org/user/sidi_maadh/"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/cyber/cryptohack.svg" width="23%" alt="CryptoHack"/></a>
+  <a href="https://www.root-me.org/sidi_maadh?lang=fr"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/cyber/rootme.svg" width="23%" alt="RootMe"/></a>
+</p>
+
+<br/>
+
+<!-- ===================== AI ===================== -->
+<h3>&nbsp;&nbsp;Artificial Intelligence</h3>
+
+<p align="center">
+  <a href="https://www.kaggle.com/sidimaadh"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/ai/kaggle.svg" width="23%" alt="Kaggle"/></a>
+  <a href="https://huggingface.co/sidiMaadh"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/ai/huggingface.svg" width="23%" alt="Hugging Face"/></a>
 </p>
 
 <br/>
