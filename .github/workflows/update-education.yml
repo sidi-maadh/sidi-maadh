@@ -3,7 +3,7 @@ name: Update Profile Stats
 on:
   schedule:
     - cron: '0 6 * * *'       # tous les jours à 06:00 UTC
-    - cron: '0 18 * * *'      # et à 18:00 UTC 
+    - cron: '0 18 * * *'      # et à 18:00 UTC
   workflow_dispatch:          # bouton manuel
 
 permissions:
@@ -40,20 +40,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python update_projects.py
 
-      - name: Codeforces rating
-        run: python update_codeforces.py
-        continue-on-error: true
-
-      - name: LeetCode stats
-        run: python update_leetcode.py
-        continue-on-error: true
-
-      - name: CodeChef stats
-        run: python update_codechef.py
-        continue-on-error: true
-
-      - name: HackerRank stats
-        run: python update_hackerrank.py
+      - name: Platform cards (CP, Problem Solving, Cyber, AI)
+        run: python update_cards.py
         continue-on-error: true
 
       - name: Latest YouTube video
