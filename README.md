@@ -9,6 +9,7 @@
   <a href="https://drive.google.com/file/d/1w5D3iPeZThQWXO-vnhodsMFtNqpmB9u5/view"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/social/resume.svg" height="40" alt="Resume"/></a>
 </p>
 
+<br/>
 
 <!-- ===================== ABOUT ===================== -->
 <img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/about.svg" alt="About" width="100%"/>
@@ -25,9 +26,9 @@
 
 <!-- PROJECTS:START -->
 <p align="center">
-  <a href="https://github.com/sidi-maadh/sidi-maadh"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/projects/p1.svg" width="32%" alt="Project 1"/></a>
-  <a href="https://github.com/sidi-maadh/MachineLearningSpecialization_Labs"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/projects/p2.svg" width="32%" alt="Project 2"/></a>
-  <a href="https://github.com/sidi-maadh/Intro_to_AI_CourseMaterials"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/projects/p3.svg" width="32%" alt="Project 3"/></a>
+  <a href="https://github.com/sidi-maadh?tab=repositories"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/projects/p1.svg" width="32%" alt="Project 1"/></a>
+  <a href="https://github.com/sidi-maadh?tab=repositories"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/projects/p2.svg" width="32%" alt="Project 2"/></a>
+  <a href="https://github.com/sidi-maadh?tab=repositories"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/projects/p3.svg" width="32%" alt="Project 3"/></a>
 </p>
 <!-- PROJECTS:END -->
 
@@ -48,7 +49,7 @@
 <br/>
 
 <!-- ===================== COMMUNITY ===================== -->
-<h3>&nbsp;&nbsp;Community</h3> 
+<h3>&nbsp;&nbsp;Community</h3>
 
 <p align="center">
   <a href="https://github.com/sidi-maadh?tab=followers"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/community/followers.svg" width="22%" alt="Followers"/></a>&nbsp;
@@ -85,10 +86,22 @@
 <h3>&nbsp;&nbsp;Competitive Programming</h3>
 
 <p align="center">
-  <a href="https://codeforces.com/profile/sidi_maadh"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/cp/codeforces.svg" height="100" alt="Codeforces"/></a>&nbsp;
-  <a href="https://leetcode.com/u/sidi_maadh/"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/cp/leetcode.svg" height="100" alt="LeetCode"/></a>&nbsp;
-  <a href="https://www.codechef.com/users/sidi_maadh"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/cp/codechef.svg" height="100" alt="CodeChef"/></a>&nbsp;
-  <a href="https://www.hackerrank.com/profile/sidi_maadh"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/cp/hackerrank.svg" height="100" alt="HackerRank"/></a>
+  <a href="https://codeforces.com/profile/sidi_maadh"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/cp/codeforces.svg" width="23%" alt="Codeforces"/></a>
+  <a href="https://leetcode.com/u/sidi_maadh/"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/cp/leetcode.svg" width="23%" alt="LeetCode"/></a>
+  <a href="https://www.codechef.com/users/sidi_maadh"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/cp/codechef.svg" width="23%" alt="CodeChef"/></a>
+  <a href="https://www.hackerrank.com/profile/sidi_maadh"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/cp/hackerrank.svg" width="23%" alt="HackerRank"/></a>
+</p>
+
+<br/>
+
+<!-- ===================== PLATFORMS ===================== -->
+<h3>&nbsp;&nbsp;Cybersecurity &amp; AI Platforms</h3>
+
+<p align="center">
+  <a href="https://app.hackthebox.com/users/sidiMaadh"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/platforms/hackthebox.svg" width="23%" alt="Hack The Box"/></a>
+  <a href="https://tryhackme.com/p/SidiMaadh"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/platforms/tryhackme.svg" width="23%" alt="TryHackMe"/></a>
+  <a href="https://www.kaggle.com/sidimaadh"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/platforms/kaggle.svg" width="23%" alt="Kaggle"/></a>
+  <a href="https://huggingface.co/sidiMaadh"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/platforms/huggingface.svg" width="23%" alt="Hugging Face"/></a>
 </p>
 
 <br/>
