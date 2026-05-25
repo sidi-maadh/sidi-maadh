@@ -5,7 +5,7 @@
   <a href="mailto:sidichrifahdmaadh@gmail.com"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/social/email.svg" height="40" alt="Email"/></a>&nbsp;
   <a href="https://www.linkedin.com/in/sidichrifahmedmaadh/"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/social/linkedin.svg" height="40" alt="LinkedIn"/></a>&nbsp;
   <a href="https://twitter.com/SidiMaadh"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/social/twitter.svg" height="40" alt="Twitter"/></a>&nbsp;
-  <a href="https://www.youtube.com/@SidiMaadh"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/social/youtube.svg" height="40" alt="YouTube"/></a>&nbsp;
+  <a href="http://www.youtube.com/@SidiMaadh"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/social/youtube.svg" height="40" alt="YouTube"/></a>&nbsp;
   <a href="https://drive.google.com/file/d/1w5D3iPeZThQWXO-vnhodsMFtNqpmB9u5/view"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/social/resume.svg" height="40" alt="Resume"/></a>
 </p>
 
@@ -22,9 +22,13 @@
 <br/>
 
 <!-- ===================== FEATURED PROJECTS ===================== -->
-<div align="center"> <a href="https://github.com/sidi-maadh?tab=repositories">
-  <img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/projects.svg" alt="Latest Projects" width="100%"/></a>
-</div>
+<h3>&nbsp;&nbsp;Latest Projects</h3>
+
+<p align="center">
+  <a href="https://github.com/sidi-maadh?tab=repositories&sort=pushed"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/projects/p1.svg" height="130" alt="Project 1"/></a>&nbsp;
+  <a href="https://github.com/sidi-maadh?tab=repositories&sort=pushed"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/projects/p2.svg" height="130" alt="Project 2"/></a>&nbsp;
+  <a href="https://github.com/sidi-maadh?tab=repositories&sort=pushed"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/projects/p3.svg" height="130" alt="Project 3"/></a>
+</p>
 
 <br/>
 
@@ -37,13 +41,20 @@
 <img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/education.svg" alt="Self Education" width="100%"/>
 
 <div align="center">
-<a href="https://docs.google.com/spreadsheets/d/1ZML9h4zXsLC8KIx6g4DR-lsSJ7VzN-aj-Meo9Lrdt7w/edit?usp=sharing"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/tracker_badge.svg" alt="Live tracker — My Self-Education Sheets" height="40"/></a>
+<a href="https://docs.google.com/spreadsheets/d/1ZML9h4zXsLC8KIx6g4DR-lsSJ7VzN-aj-Meo9Lrdt7w/edit?usp=sharing"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/tracker_badge.svg" alt="Live tracker — My Self-Education Sheet" height="40"/></a>
 </div>
 
 <br/>
 
 <!-- ===================== COMMUNITY ===================== -->
-<img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/community.svg" alt="Community" width="100%"/>
+<h3>&nbsp;&nbsp;Community</h3>
+
+<p align="center">
+  <a href="https://github.com/sidi-maadh?tab=followers"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/community/followers.svg" height="74" alt="Followers"/></a>&nbsp;
+  <a href="https://github.com/sidi-maadh?tab=stars"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/community/stars.svg" height="74" alt="Stars"/></a>&nbsp;
+  <a href="https://github.com/sidi-maadh/sidi-maadh/watchers"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/community/watchers.svg" height="74" alt="Watchers"/></a>&nbsp;
+  <a href="https://committers.top/"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/community/rank.svg" height="74" alt="Committers rank"/></a>
+</p>
 
 <br/>
 
