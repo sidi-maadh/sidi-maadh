@@ -82,6 +82,11 @@
 
 <br/>
 
+<!-- ===================== CODING PROFILES BANNER ===================== -->
+<img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/platforms_banner.svg" alt="Coding Profiles & Platforms" width="100%"/>
+
+<br/>
+
 <!-- ===================== COMPETITIVE PROGRAMMING ===================== -->
 <h3>&nbsp;&nbsp;Competitive Programming</h3>
 
