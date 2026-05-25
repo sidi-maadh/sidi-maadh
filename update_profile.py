@@ -18,9 +18,10 @@ def build_header(h):
     x = 0
     for i, m in enumerate(meta):
         meta_svg += f'<text x="{x}" y="12">{esc(m)}</text>'
-        x += 150
+        # avancer selon la longueur réelle du texte (approx) + marge
+        x += int(len(m) * 7.2) + 28
         if i < len(meta) - 1:
-            meta_svg += f'<text x="{x-35}" y="12" fill="#4b5263">|</text>'
+            meta_svg += f'<text x="{x-18}" y="12" fill="#4b5263">|</text>'
     return f'''<svg width="900" height="240" viewBox="0 0 900 240" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI', system-ui, sans-serif">
   <defs>
     <linearGradient id="hbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0a0c10"/><stop offset="1" stop-color="#10131a"/></linearGradient>
@@ -225,6 +226,11 @@ def build_certifications(c):
     <rect x="0" y="-14" width="4" height="20" rx="2" fill="url(#cacc)"/>
     <text x="16" y="2" fill="#f0f3f9" font-size="16" font-weight="700">Certifications</text>
     <text x="158" y="2" fill="#4b5263" font-size="13">// continuous learning</text>
+  </g>
+  <g transform="translate(620, 28)" font-size="12">
+    <circle cx="6" cy="8" r="4" fill="#34d399"/><text x="16" y="12" fill="#8b93a7">{len(completed)} done</text>
+    <circle cx="86" cy="8" r="4" fill="#a78bfa"/><text x="96" y="12" fill="#8b93a7">{len(in_progress)} active</text>
+    <circle cx="176" cy="8" r="4" fill="#6b7280"/><text x="186" y="12" fill="#8b93a7">{len(planned)} planned</text>
   </g>
 {body}</svg>
 '''
