@@ -197,15 +197,32 @@ def fetch_dynamic():
 
 def main():
     import os
+    import json
+
+    # 1) Valeurs éditables depuis profile.json
+    manual = {}
+    try:
+        with open("profile.json", encoding="utf-8") as f:
+            pcfg = json.load(f)
+        manual = pcfg.get("platforms", {})
+    except Exception as e:
+        print(f"profile.json: {e}")
+
+    # 2) Valeurs dynamiques (API) — écrasent profile.json pour CF/LC/HF
     overrides = fetch_dynamic()
+
     for key, (platform, big, sub, color) in CARDS.items():
+        # priorité : API dynamique > profile.json > défaut
         if key in overrides:
             big, sub = overrides[key]
+        elif key in manual and isinstance(manual[key], dict):
+            big = manual[key].get("big", big)
+            sub = manual[key].get("sub", sub)
         folder = FOLDERS.get(key, "cp")
         os.makedirs(f"assets/{folder}", exist_ok=True)
         with open(f"assets/{folder}/{key}.svg", "w", encoding="utf-8") as f:
             f.write(card(key, platform, big, sub, color))
-    print(f"OK — {len(CARDS)} cartes générées (dont {len(overrides)} dynamiques)")
+    print(f"OK — {len(CARDS)} cartes ({len(overrides)} via API, reste via profile.json)")
 
 
 if __name__ == "__main__":
