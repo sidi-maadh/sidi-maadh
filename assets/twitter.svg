@@ -1,5 +1,0 @@
-<svg width="150" height="44" viewBox="0 0 150 44" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI', system-ui, sans-serif">
-  <rect x="1" y="1" width="148" height="42" rx="12" fill="#13161c" stroke="#222831"/>
-  <path d="M26 15 l6 8 l-6.6 8 h2.4 l5.3 -6.3 l4.8 6.3 h5.1 l-6.6 -8.6 l6.2 -7.4 h-2.4 l-4.9 5.7 l-4.3 -5.7 z" fill="#a78bfa"/>
-  <text x="52" y="27" fill="#cfd6e4" font-size="14" font-weight="600">Twitter</text>
-</svg>
