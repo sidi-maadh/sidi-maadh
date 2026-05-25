@@ -104,12 +104,6 @@
   <a href="https://huggingface.co/sidiMaadh"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/platforms/huggingface.svg" width="23%" alt="Hugging Face"/></a>
 </p>
 
-<div align="center">
-<sub>
-<a href="https://tryhackme.com/p/SidiMaadh"><img src="https://tryhackme-badges.s3.amazonaws.com/SidiMaadh.png" alt="TryHackMe badge"/></a>
-</sub>
-</div>
-
 <br/>
 
 <!-- ===================== LATEST YOUTUBE ===================== -->
