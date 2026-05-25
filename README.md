@@ -26,9 +26,9 @@
 
 <!-- PROJECTS:START -->
 <p align="center">
-  <a href="https://github.com/sidi-maadh/sidi-maadh"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/projects/p1.svg" width="32%" alt="Project 1"/></a>
-  <a href="https://github.com/sidi-maadh/MachineLearningSpecialization_Labs"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/projects/p2.svg" width="32%" alt="Project 2"/></a>
-  <a href="https://github.com/sidi-maadh/Intro_to_AI_CourseMaterials"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/projects/p3.svg" width="32%" alt="Project 3"/></a>
+  <a href="https://github.com/sidi-maadh?tab=repositories"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/projects/p1.svg" width="32%" alt="Project 1"/></a>
+  <a href="https://github.com/sidi-maadh?tab=repositories"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/projects/p2.svg" width="32%" alt="Project 2"/></a>
+  <a href="https://github.com/sidi-maadh?tab=repositories"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/projects/p3.svg" width="32%" alt="Project 3"/></a>
 </p>
 <!-- PROJECTS:END -->
 
@@ -68,8 +68,8 @@
 </div>
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats-salesp07.vercel.app/api?username=sidi-maadh&show_icons=true&count_private=true&hide_border=true&title_color=6C63FF&icon_color=6C63FF&text_color=c9d1d9&bg_color=0d1117" alt="Sidi Maadh github stats" />
-  <img width="49%" src="https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=sidi-maadh&layout=compact&hide_border=true&title_color=6C63FF&text_color=c9d1d9&bg_color=0d1117" />
+  <img width="54%" src="https://github-readme-stats-salesp07.vercel.app/api?username=sidi-maadh&show_icons=true&count_private=true&hide_border=true&title_color=6C63FF&icon_color=6C63FF&text_color=c9d1d9&bg_color=0d1117" alt="Sidi Maadh github stats" />
+  <img width="44%" src="https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=sidi-maadh&layout=compact&hide_border=true&title_color=6C63FF&text_color=c9d1d9&bg_color=0d1117&langs_count=6" />
 </div>
 
 <div align="center">
@@ -103,6 +103,12 @@
   <a href="https://www.kaggle.com/sidimaadh"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/platforms/kaggle.svg" width="23%" alt="Kaggle"/></a>
   <a href="https://huggingface.co/sidiMaadh"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/platforms/huggingface.svg" width="23%" alt="Hugging Face"/></a>
 </p>
+
+<div align="center">
+<sub>
+<a href="https://tryhackme.com/p/SidiMaadh"><img src="https://tryhackme-badges.s3.amazonaws.com/SidiMaadh.png" alt="TryHackMe badge"/></a>
+</sub>
+</div>
 
 <br/>
 
