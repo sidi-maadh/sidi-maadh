@@ -2,7 +2,8 @@ name: Update Profile Stats
 
 on:
   schedule:
-    - cron: '0 6 * * *'      # tous les jours à 06:00 UTC
+    - cron: '0 6 * * *'       # tous les jours à 06:00 UTC
+    - cron: '0 18 * * *'      # et à 18:00 UTC (double chance)
   workflow_dispatch:          # bouton manuel
 
 permissions:
