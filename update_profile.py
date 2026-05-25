@@ -147,6 +147,89 @@ def build_techstack(ts):
 '''
 
 
+def build_certifications(c):
+    completed = c.get("completed", [])
+    in_progress = c.get("in_progress", [])
+    planned = c.get("planned", [])
+
+    def plat_color(p):
+        p = (p or "").lower()
+        if "aws" in p:
+            return "#fbbf24"
+        if "coursera" in p:
+            return "#60a5fa"
+        return "#8b93a7"
+
+    body = ""
+    y = 74
+
+    def status_label(color, label):
+        return (f'<g transform="translate(40, {y})">'
+                f'<rect width="11" height="11" rx="3" fill="{color}"/>'
+                f'<text x="22" y="10" fill="{color}" font-size="12" font-weight="700" letter-spacing="0.8">{label}</text></g>')
+
+    # COMPLETED
+    body += status_label("#34d399", "COMPLETED")
+    y += 16
+    for i, cert in enumerate(completed):
+        bg = "#13161c" if i % 2 == 0 else "#1c2128"
+        body += (f'<g transform="translate(40, {y})">'
+                 f'<rect width="820" height="40" rx="10" fill="{bg}" stroke="#222831"/>'
+                 f'<rect x="0" y="0" width="3" height="40" rx="1.5" fill="#34d399"/>'
+                 f'<text x="20" y="25" fill="#e6eaf2" font-size="13.5" font-weight="600">{esc(cert["name"])}</text>'
+                 f'<text x="420" y="25" fill="#8b93a7" font-size="12.5">{esc(cert.get("issuer",""))}</text>'
+                 f'<text x="660" y="25" fill="{plat_color(cert.get("platform"))}" font-size="12.5">{esc(cert.get("platform",""))}</text>'
+                 f'<text x="800" y="25" fill="#6b7280" font-size="12.5" text-anchor="end">{esc(cert.get("year",""))}</text></g>')
+        y += 46
+
+    # IN PROGRESS
+    y += 16
+    body += status_label("#a78bfa", "IN PROGRESS")
+    y += 16
+    for i, cert in enumerate(in_progress):
+        bg = "#13161c" if i % 2 == 0 else "#1c2128"
+        body += (f'<g transform="translate(40, {y})">'
+                 f'<rect width="820" height="40" rx="10" fill="{bg}" stroke="#222831"/>'
+                 f'<rect x="0" y="0" width="3" height="40" rx="1.5" fill="#a78bfa"/>'
+                 f'<text x="20" y="25" fill="#e6eaf2" font-size="13.5" font-weight="600">{esc(cert["name"])}</text>'
+                 f'<text x="420" y="25" fill="#8b93a7" font-size="12.5">{esc(cert.get("issuer",""))}</text>'
+                 f'<text x="660" y="25" fill="{plat_color(cert.get("platform"))}" font-size="12.5">{esc(cert.get("platform",""))}</text>'
+                 f'<text x="800" y="25" fill="#6b7280" font-size="12.5" text-anchor="end">{esc(cert.get("year",""))}</text></g>')
+        y += 46
+
+    # PLANNED
+    y += 16
+    body += status_label("#6b7280", "PLANNED")
+    y += 16
+    px = 40
+    for cert in planned:
+        body += (f'<g transform="translate({px}, {y})">'
+                 f'<rect width="404" height="36" rx="10" fill="#0f1217" stroke="#1c222b"/>'
+                 f'<text x="18" y="23" fill="#8b93a7" font-size="13" font-weight="500">{esc(cert["name"])}</text>'
+                 f'<text x="386" y="23" fill="#5a6270" font-size="12" text-anchor="end">{esc(cert.get("platform",""))}</text></g>')
+        px = 456 if px == 40 else 40
+        if px == 40:
+            y += 44
+    if len(planned) % 2 == 1:
+        y += 44
+    svg_h = y + 16
+
+    return f'''<svg width="900" height="{svg_h}" viewBox="0 0 900 {svg_h}" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI', system-ui, sans-serif">
+  <defs>
+    <linearGradient id="cbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0a0c10"/><stop offset="1" stop-color="#10131a"/></linearGradient>
+    <linearGradient id="cacc" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8b5cf6"/><stop offset="1" stop-color="#3b82f6"/></linearGradient>
+  </defs>
+  <rect width="900" height="{svg_h}" rx="16" fill="url(#cbg)"/>
+  <rect x="0.5" y="0.5" width="899" height="{svg_h-1}" rx="16" fill="none" stroke="#ffffff" stroke-opacity="0.08"/>
+  <g transform="translate(40, 40)">
+    <rect x="0" y="-14" width="4" height="20" rx="2" fill="url(#cacc)"/>
+    <text x="16" y="2" fill="#f0f3f9" font-size="16" font-weight="700">Certifications</text>
+    <text x="158" y="2" fill="#4b5263" font-size="13">// continuous learning</text>
+  </g>
+{body}</svg>
+'''
+
+
 def main():
     with open("profile.json", encoding="utf-8") as f:
         cfg = json.load(f)
@@ -157,7 +240,10 @@ def main():
         f.write(build_about(cfg["about"]))
     with open("assets/techstack.svg", "w", encoding="utf-8") as f:
         f.write(build_techstack(cfg["techstack"]))
-    print("OK — header, about, techstack régénérés depuis profile.json")
+    if "certifications" in cfg:
+        with open("assets/certifications.svg", "w", encoding="utf-8") as f:
+            f.write(build_certifications(cfg["certifications"]))
+    print("OK — header, about, techstack, certifications régénérés depuis profile.json")
 
 
 if __name__ == "__main__":
