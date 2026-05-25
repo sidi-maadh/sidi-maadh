@@ -21,6 +21,10 @@ jobs:
         with:
           python-version: '3.12'
 
+      - name: Profile cards (header, about, tech stack)
+        run: python update_profile.py
+        continue-on-error: true
+
       - name: Education stats (Google Sheet)
         env:
           SHEET_CSV_URL: ${{ secrets.SHEET_CSV_URL }}
