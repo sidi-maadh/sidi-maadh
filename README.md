@@ -24,11 +24,13 @@
 <!-- ===================== FEATURED PROJECTS ===================== -->
 <h3>&nbsp;&nbsp;Latest Projects</h3>
 
+<!-- PROJECTS:START -->
 <p align="center">
-  <a href="https://github.com/sidi-maadh?tab=repositories&sort=pushed"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/projects/p1.svg" height="130" alt="Project 1"/></a>&nbsp;
-  <a href="https://github.com/sidi-maadh?tab=repositories&sort=pushed"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/projects/p2.svg" height="130" alt="Project 2"/></a>&nbsp;
-  <a href="https://github.com/sidi-maadh?tab=repositories&sort=pushed"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/projects/p3.svg" height="130" alt="Project 3"/></a>
+  <a href="https://github.com/sidi-maadh?tab=repositories"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/projects/p1.svg" width="32%" alt="Project 1"/></a>
+  <a href="https://github.com/sidi-maadh?tab=repositories"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/projects/p2.svg" width="32%" alt="Project 2"/></a>
+  <a href="https://github.com/sidi-maadh?tab=repositories"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/projects/p3.svg" width="32%" alt="Project 3"/></a>
 </p>
+<!-- PROJECTS:END -->
 
 <br/>
 
@@ -50,10 +52,10 @@
 <h3>&nbsp;&nbsp;Community</h3>
 
 <p align="center">
-  <a href="https://github.com/sidi-maadh?tab=followers"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/community/followers.svg" height="74" alt="Followers"/></a>&nbsp;
-  <a href="https://github.com/sidi-maadh?tab=stars"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/community/stars.svg" height="74" alt="Stars"/></a>&nbsp;
-  <a href="https://github.com/sidi-maadh/sidi-maadh/watchers"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/community/watchers.svg" height="74" alt="Watchers"/></a>&nbsp;
-  <a href="https://committers.top/"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/community/rank.svg" height="74" alt="Committers rank"/></a>
+  <a href="https://github.com/sidi-maadh?tab=followers"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/community/followers.svg" width="22%" alt="Followers"/></a>&nbsp;
+  <a href="https://github.com/sidi-maadh?tab=stars"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/community/stars.svg" width="22%" alt="Stars"/></a>&nbsp;
+  <a href="https://github.com/sidi-maadh/sidi-maadh/watchers"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/community/watchers.svg" width="22%" alt="Watchers"/></a>&nbsp;
+  <a href="https://committers.top/mauritania"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/community/rank.svg" width="28%" alt="Committers rank"/></a>
 </p>
 
 <br/>
