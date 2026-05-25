@@ -13,6 +13,6 @@
   <rect x="40" y="56" width="64" height="64" rx="12" fill="#13161c" stroke="#222831"/>
   <circle cx="72" cy="88" r="18" fill="#a78bfa" fill-opacity="0.15"/>
   <path d="M67 80 l12 8 l-12 8 z" fill="#a78bfa"/>
-  <text x="120" y="70" fill="#e6eaf2" font-size="15" font-weight="600">Sidi Maadh</text>
+  <text x="120" y="70" fill="#e6eaf2" font-size="15" font-weight="600">Visit my YouTube channel</text>
   <text x="120" y="96" fill="#6b7280" font-size="12">▶ Watch now on YouTube</text>
 </svg>
