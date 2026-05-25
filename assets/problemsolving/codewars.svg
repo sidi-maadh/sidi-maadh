@@ -1,0 +1,11 @@
+<svg width="210" height="110" viewBox="0 0 210 110" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI', system-ui, sans-serif">
+  <rect x="1" y="1" width="208" height="108" rx="12" fill="#13161c" stroke="#222831"/>
+  <rect x="1" y="1" width="208" height="4" rx="2" fill="#B1361E"/>
+  <g transform="translate(20,20)">
+      <path d="M2 9 c0 -3 4 -5 10 -5 c6 0 10 2 10 5 l-3 1 c-4 -1.5 -10 -1.5 -14 0 z" fill="#b1361e"/>
+      <path d="M2 11 c2 1 6 2 10 2 c4 0 8 -1 10 -2 l-1 4 c-2 1.5 -5.5 2.5 -9 2.5 c-3.5 0 -7 -1 -9 -2.5 z" fill="#ad2c27"/>
+      <circle cx="9" cy="12.5" r="1.2" fill="#fff"/><circle cx="15" cy="12.5" r="1.2" fill="#fff"/></g>
+  <text x="60" y="36" fill="#8b93a7" font-size="12" font-weight="600" letter-spacing="0.3">CodeWars</text>
+  <text x="20" y="72" fill="#B1361E" font-size="21" font-weight="700">Active</text>
+  <text x="20" y="94" fill="#6b7280" font-size="12">Kata challenges</text>
+</svg>

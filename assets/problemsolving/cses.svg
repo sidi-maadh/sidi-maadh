@@ -1,0 +1,9 @@
+<svg width="210" height="110" viewBox="0 0 210 110" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI', system-ui, sans-serif">
+  <rect x="1" y="1" width="208" height="108" rx="12" fill="#13161c" stroke="#222831"/>
+  <rect x="1" y="1" width="208" height="4" rx="2" fill="#4A90D9"/>
+  <g transform="translate(21,20)">
+      <path d="M8 2 L2 12 L8 22 M16 2 L22 12 L16 22" stroke="#4a90d9" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+  <text x="60" y="36" fill="#8b93a7" font-size="12" font-weight="600" letter-spacing="0.3">CSES</text>
+  <text x="20" y="72" fill="#4A90D9" font-size="21" font-weight="700">Solving</text>
+  <text x="20" y="94" fill="#6b7280" font-size="12">Problem set</text>
+</svg>
