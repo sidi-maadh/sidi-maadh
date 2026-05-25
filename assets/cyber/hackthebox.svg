@@ -1,0 +1,10 @@
+<svg width="210" height="110" viewBox="0 0 210 110" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI', system-ui, sans-serif">
+  <rect x="1" y="1" width="208" height="108" rx="12" fill="#13161c" stroke="#222831"/>
+  <rect x="1" y="1" width="208" height="4" rx="2" fill="#9FEF00"/>
+  <g transform="translate(21,18)">
+      <path d="M12 2 L21 7 V17 L12 22 L3 17 V7 Z" fill="none" stroke="#9fef00" stroke-width="2" stroke-linejoin="round"/>
+      <path d="M12 2 V12 M12 12 L3 7 M12 12 L21 7" stroke="#9fef00" stroke-width="1.6" fill="none"/></g>
+  <text x="60" y="36" fill="#8b93a7" font-size="12" font-weight="600" letter-spacing="0.3">Hack The Box</text>
+  <text x="20" y="72" fill="#9FEF00" font-size="21" font-weight="700">Hacker</text>
+  <text x="20" y="94" fill="#6b7280" font-size="12">Pentesting labs</text>
+</svg>
