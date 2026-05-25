@@ -11,6 +11,18 @@
 
 <br/>
 
+<!-- ===================== COMMUNITY ===================== -->
+<!-- <h3>&nbsp;&nbsp;Community</h3> -->
+
+<p align="center">
+  <a href="https://github.com/sidi-maadh?tab=followers"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/community/followers.svg" width="22%" alt="Followers"/></a>&nbsp;
+  <a href="https://github.com/sidi-maadh?tab=stars"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/community/stars.svg" width="22%" alt="Stars"/></a>&nbsp;
+  <a href="https://github.com/sidi-maadh/sidi-maadh/watchers"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/community/watchers.svg" width="22%" alt="Watchers"/></a>&nbsp;
+  <a href="https://committers.top/mauritania"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/community/rank.svg" width="28%" alt="Committers rank"/></a>
+</p>
+
+<br/>
+
 <!-- ===================== ABOUT ===================== -->
 <img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/about.svg" alt="About" width="100%"/>
 
@@ -45,18 +57,6 @@
 <div align="center">
 <a href="https://docs.google.com/spreadsheets/d/1ZML9h4zXsLC8KIx6g4DR-lsSJ7VzN-aj-Meo9Lrdt7w/edit?usp=sharing"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/tracker_badge.svg" alt="Live tracker — My Self-Education Sheet" height="40"/></a>
 </div>
-
-<br/>
-
-<!-- ===================== COMMUNITY ===================== -->
-<h3>&nbsp;&nbsp;Community</h3>
-
-<p align="center">
-  <a href="https://github.com/sidi-maadh?tab=followers"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/community/followers.svg" width="22%" alt="Followers"/></a>&nbsp;
-  <a href="https://github.com/sidi-maadh?tab=stars"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/community/stars.svg" width="22%" alt="Stars"/></a>&nbsp;
-  <a href="https://github.com/sidi-maadh/sidi-maadh/watchers"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/community/watchers.svg" width="22%" alt="Watchers"/></a>&nbsp;
-  <a href="https://committers.top/mauritania"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/community/rank.svg" width="28%" alt="Committers rank"/></a>
-</p>
 
 <br/>
 
