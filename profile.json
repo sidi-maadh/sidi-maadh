@@ -1,0 +1,71 @@
+{
+  "header": {
+    "availability": "Available for AI / ML roles",
+    "name": "Sidi Chrif Ahmed Maadh",
+    "role_accent": "AI / Machine Learning Engineer",
+    "role_rest": "Master's in Artificial Intelligence",
+    "meta": ["📍 Mauritania", "🎓 MSc Artificial Intelligence", "🌐 Remote-friendly"],
+    "monogram": "SM"
+  },
+  "about": {
+    "summary": [
+      "Master's student in Artificial Intelligence building practical, well-engineered ML systems.",
+      "I combine a deep-learning research mindset with full-stack delivery — from model to production."
+    ],
+    "focus": "Machine Learning · Deep Learning · NLP",
+    "ai_skills": "PyTorch · Transformers · LLMs · RAG",
+    "algorithms": "Codeforces Expert · 500+ problems solved",
+    "currently": "a RAG chatbot (LLM)",
+    "seeking": "AI Research Internship · ML Engineer position · Open to remote & relocation"
+  },
+  "techstack": {
+    "AI / ML": [
+      {"name": "PyTorch", "color": "#ee4c2c"},
+      {"name": "TensorFlow", "color": "#ff6f00"},
+      {"name": "scikit-learn", "color": "#f7931e"},
+      {"name": "Hugging Face", "color": "#ffd21e"},
+      {"name": "LangChain", "color": "#00a67e"},
+      {"name": "OpenCV", "color": "#5c3ee8"},
+      {"name": "Pandas", "color": "#150458"},
+      {"name": "NumPy", "color": "#013243"}
+    ],
+    "LANGUAGES": [
+      {"name": "Python", "color": "#3776ab"},
+      {"name": "C++", "color": "#00599c"},
+      {"name": "Java", "color": "#ed8b00"},
+      {"name": "JavaScript", "color": "#f7df1e"},
+      {"name": "TypeScript", "color": "#007acc"},
+      {"name": "Dart", "color": "#02569b"}
+    ],
+    "FULL-STACK · MOBILE": [
+      {"name": "React", "color": "#61dafb"},
+      {"name": "Spring Boot", "color": "#6db33f"},
+      {"name": "Django", "color": "#092e20"},
+      {"name": "Flutter", "color": "#02569b"},
+      {"name": "Tailwind", "color": "#38b2ac"}
+    ],
+    "DATA · DEVOPS · CLOUD": [
+      {"name": "PostgreSQL", "color": "#316192"},
+      {"name": "MySQL", "color": "#005c84"},
+      {"name": "Firebase", "color": "#ffca28"},
+      {"name": "Docker", "color": "#2ca5e0"},
+      {"name": "Git", "color": "#f05032"},
+      {"name": "AWS", "color": "#ff9900"}
+    ]
+  },
+  "certifications": {
+    "completed": [
+      {"name": "Machine Learning Specialization", "issuer": "Andrew Ng · Stanford", "platform": "Coursera", "year": "2024"},
+      {"name": "Deep Learning Specialization", "issuer": "Andrew Ng · deeplearning.ai", "platform": "Coursera", "year": "2024"},
+      {"name": "NLP Specialization", "issuer": "deeplearning.ai", "platform": "Coursera", "year": "2024"}
+    ],
+    "in_progress": [
+      {"name": "Generative AI with LLMs", "issuer": "DeepLearning.AI · AWS", "platform": "Coursera", "year": "2025"},
+      {"name": "AWS Cloud Practitioner", "issuer": "Amazon Web Services", "platform": "AWS", "year": "2025"}
+    ],
+    "planned": [
+      {"name": "Google Professional ML Engineer", "platform": "GCP"},
+      {"name": "Microsoft Azure AI Fundamentals", "platform": "AZ-900"}
+    ]
+  }
+}
