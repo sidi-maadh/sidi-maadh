@@ -87,6 +87,41 @@ def card(repo):
 '''
 
 
+def update_readme(repos):
+    """Réécrit la zone PROJECTS du README avec les vraies URLs des repos."""
+    raw = "https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets"
+    cards = []
+    for i, repo in enumerate(repos, 1):
+        url = repo.get("html_url", "https://github.com/sidi-maadh")
+        cards.append(
+            f'  <a href="{url}"><img src="{raw}/projects/p{i}.svg" width="32%" alt="Project {i}"/></a>'
+        )
+    block = "\n".join(cards)
+    new_section = (
+        "<!-- PROJECTS:START -->\n"
+        '<p align="center">\n'
+        f"{block}\n"
+        "</p>\n"
+        "<!-- PROJECTS:END -->"
+    )
+    try:
+        with open("README.md", encoding="utf-8") as f:
+            readme = f.read()
+        import re
+        if "<!-- PROJECTS:START -->" in readme:
+            readme = re.sub(
+                r"<!-- PROJECTS:START -->.*?<!-- PROJECTS:END -->",
+                new_section,
+                readme,
+                flags=re.DOTALL,
+            )
+            with open("README.md", "w", encoding="utf-8") as f:
+                f.write(readme)
+            print("README — liens projets mis à jour")
+    except Exception as e:
+        print(f"Avertissement README: {e}")
+
+
 def main():
     try:
         repos = fetch_repos()
@@ -101,6 +136,8 @@ def main():
         urls.append(repo.get("html_url", ""))
     with open("assets/projects/urls.txt", "w") as f:
         f.write("\n".join(urls))
+    if repos:
+        update_readme(repos)
     print(f"OK — {len(repos)} projets: " + ", ".join(r.get("name", "") for r in repos))
 
 
