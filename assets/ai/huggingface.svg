@@ -1,0 +1,11 @@
+<svg width="210" height="110" viewBox="0 0 210 110" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI', system-ui, sans-serif">
+  <rect x="1" y="1" width="208" height="108" rx="12" fill="#13161c" stroke="#222831"/>
+  <rect x="1" y="1" width="208" height="4" rx="2" fill="#FFD21E"/>
+  <g transform="translate(20,19)">
+      <circle cx="12" cy="12" r="11" fill="#ffd21e"/>
+      <circle cx="8" cy="10" r="1.6" fill="#0a0c10"/><circle cx="16" cy="10" r="1.6" fill="#0a0c10"/>
+      <path d="M7 15 q5 4 10 0" stroke="#0a0c10" stroke-width="1.8" fill="none" stroke-linecap="round"/></g>
+  <text x="60" y="36" fill="#8b93a7" font-size="12" font-weight="600" letter-spacing="0.3">Hugging Face</text>
+  <text x="20" y="72" fill="#FFD21E" font-size="21" font-weight="700">Builder</text>
+  <text x="20" y="94" fill="#6b7280" font-size="12">Models &amp; datasets</text>
+</svg>
