@@ -4,7 +4,11 @@
     "name": "Sidi Chrif Ahmed Maadh",
     "role_accent": "AI / Machine Learning Engineer",
     "role_rest": "Master's in Artificial Intelligence",
-    "meta": ["📍 Mauritania", "🎓 MSc Artificial Intelligence", "🌐 Remote-friendly"],
+    "meta": [
+      "📍 Mauritania",
+      "🎓 MSc Artificial Intelligence",
+      "🌐 Remote-friendly"
+    ],
     "monogram": "SM"
   },
   "about": {
@@ -20,53 +24,209 @@
   },
   "techstack": {
     "AI / ML": [
-      {"name": "PyTorch", "color": "#ee4c2c"},
-      {"name": "TensorFlow", "color": "#ff6f00"},
-      {"name": "scikit-learn", "color": "#f7931e"},
-      {"name": "Hugging Face", "color": "#ffd21e"},
-      {"name": "LangChain", "color": "#00a67e"},
-      {"name": "OpenCV", "color": "#5c3ee8"},
-      {"name": "Pandas", "color": "#150458"},
-      {"name": "NumPy", "color": "#013243"}
+      {
+        "name": "PyTorch",
+        "color": "#ee4c2c"
+      },
+      {
+        "name": "TensorFlow",
+        "color": "#ff6f00"
+      },
+      {
+        "name": "scikit-learn",
+        "color": "#f7931e"
+      },
+      {
+        "name": "Hugging Face",
+        "color": "#ffd21e"
+      },
+      {
+        "name": "LangChain",
+        "color": "#00a67e"
+      },
+      {
+        "name": "OpenCV",
+        "color": "#5c3ee8"
+      },
+      {
+        "name": "Pandas",
+        "color": "#150458"
+      },
+      {
+        "name": "NumPy",
+        "color": "#013243"
+      }
     ],
     "LANGUAGES": [
-      {"name": "Python", "color": "#3776ab"},
-      {"name": "C++", "color": "#00599c"},
-      {"name": "Java", "color": "#ed8b00"},
-      {"name": "JavaScript", "color": "#f7df1e"},
-      {"name": "TypeScript", "color": "#007acc"},
-      {"name": "Dart", "color": "#02569b"}
+      {
+        "name": "Python",
+        "color": "#3776ab"
+      },
+      {
+        "name": "C++",
+        "color": "#00599c"
+      },
+      {
+        "name": "Java",
+        "color": "#ed8b00"
+      },
+      {
+        "name": "JavaScript",
+        "color": "#f7df1e"
+      },
+      {
+        "name": "TypeScript",
+        "color": "#007acc"
+      },
+      {
+        "name": "Dart",
+        "color": "#02569b"
+      }
     ],
     "FULL-STACK · MOBILE": [
-      {"name": "React", "color": "#61dafb"},
-      {"name": "Spring Boot", "color": "#6db33f"},
-      {"name": "Django", "color": "#092e20"},
-      {"name": "Flutter", "color": "#02569b"},
-      {"name": "Tailwind", "color": "#38b2ac"}
+      {
+        "name": "React",
+        "color": "#61dafb"
+      },
+      {
+        "name": "Spring Boot",
+        "color": "#6db33f"
+      },
+      {
+        "name": "Django",
+        "color": "#092e20"
+      },
+      {
+        "name": "Flutter",
+        "color": "#02569b"
+      },
+      {
+        "name": "Tailwind",
+        "color": "#38b2ac"
+      }
     ],
     "DATA · DEVOPS · CLOUD": [
-      {"name": "PostgreSQL", "color": "#316192"},
-      {"name": "MySQL", "color": "#005c84"},
-      {"name": "Firebase", "color": "#ffca28"},
-      {"name": "Docker", "color": "#2ca5e0"},
-      {"name": "Git", "color": "#f05032"},
-      {"name": "AWS", "color": "#ff9900"}
+      {
+        "name": "PostgreSQL",
+        "color": "#316192"
+      },
+      {
+        "name": "MySQL",
+        "color": "#005c84"
+      },
+      {
+        "name": "Firebase",
+        "color": "#ffca28"
+      },
+      {
+        "name": "Docker",
+        "color": "#2ca5e0"
+      },
+      {
+        "name": "Git",
+        "color": "#f05032"
+      },
+      {
+        "name": "AWS",
+        "color": "#ff9900"
+      }
     ]
   },
   "certifications": {
     "completed": [
-      {"name": "Machine Learning Specialization", "issuer": "Andrew Ng · Stanford", "platform": "Coursera", "year": "2026"},
-      {"name": "Deep Learning Specialization", "issuer": "Andrew Ng · deeplearning.ai", "platform": "Coursera", "year": "2026"},
-      {"name": "NLP Specialization", "issuer": "deeplearning.ai", "platform": "Coursera", "year": "2026"},
-      {"name": "TensorFlow Developer Professional Certificate", "issuer": "deeplearning.ai", "platform": "Coursera", "year": "2026"}
+      {
+        "name": "Machine Learning Specialization",
+        "issuer": "Andrew Ng · Stanford",
+        "platform": "Coursera",
+        "year": "2024"
+      },
+      {
+        "name": "Deep Learning Specialization",
+        "issuer": "Andrew Ng · deeplearning.ai",
+        "platform": "Coursera",
+        "year": "2024"
+      },
+      {
+        "name": "NLP Specialization",
+        "issuer": "deeplearning.ai",
+        "platform": "Coursera",
+        "year": "2024"
+      }
     ],
     "in_progress": [
-      {"name": "Generative AI with LLMs", "issuer": "DeepLearning.AI · AWS", "platform": "Coursera", "year": "2026"},
-      {"name": "AWS Cloud Practitioner", "issuer": "Amazon Web Services", "platform": "AWS", "year": "2026"}
+      {
+        "name": "Generative AI with LLMs",
+        "issuer": "DeepLearning.AI · AWS",
+        "platform": "Coursera",
+        "year": "2025"
+      },
+      {
+        "name": "AWS Cloud Practitioner",
+        "issuer": "Amazon Web Services",
+        "platform": "AWS",
+        "year": "2025"
+      }
     ],
     "planned": [
-      {"name": "Google Professional ML Engineer", "platform": "GCP"},
-      {"name": "Microsoft Azure AI Fundamentals", "platform": "AZ-900"}
+      {
+        "name": "Google Professional ML Engineer",
+        "platform": "GCP"
+      },
+      {
+        "name": "Microsoft Azure AI Fundamentals",
+        "platform": "AZ-900"
+      }
     ]
+  },
+  "platforms": {
+    "_comment": "Edite big/sub pour chaque plateforme. codeforces, leetcode, huggingface sont auto (API) et ignorent ces valeurs.",
+    "codechef": {
+      "big": "3 ★",
+      "sub": "Rating 1600+"
+    },
+    "hackerrank": {
+      "big": "Gold",
+      "sub": "Problem solving"
+    },
+    "adventofcode": {
+      "big": "Coder",
+      "sub": "Yearly puzzles"
+    },
+    "cses": {
+      "big": "Solving",
+      "sub": "Problem set"
+    },
+    "codewars": {
+      "big": "Active",
+      "sub": "Kata challenges"
+    },
+    "geeksforgeeks": {
+      "big": "Active",
+      "sub": "DSA practice"
+    },
+    "edabit": {
+      "big": "Solving",
+      "sub": "Coding challenges"
+    },
+    "hackthebox": {
+      "big": "Hacker",
+      "sub": "Pentesting labs"
+    },
+    "tryhackme": {
+      "big": "Active",
+      "sub": "Security rooms"
+    },
+    "cryptohack": {
+      "big": "Active",
+      "sub": "Crypto challenges"
+    },
+    "rootme": {
+      "big": "Active",
+      "sub": "Hacking challenges"
+    },
+    "kaggle": {
+      "big": "Contributor",
+      "sub": "ML competitions"
+    }
   }
 }
