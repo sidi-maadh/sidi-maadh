@@ -68,8 +68,8 @@
 </div>
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats-salesp07.vercel.app/api?username=sidi-maadh&show_icons=true&count_private=true&hide_border=true&title_color=6C63FF&icon_color=6C63FF&text_color=c9d1d9&bg_color=0d1117" alt="Sidi Maadh github stats" />
-  <img width="49%" src="https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=sidi-maadh&layout=compact&hide_border=true&title_color=6C63FF&text_color=c9d1d9&bg_color=0d1117&langs_count=6" />
+  <img width="55%" src="https://github-readme-stats-salesp07.vercel.app/api?username=sidi-maadh&show_icons=true&count_private=true&hide_border=true&title_color=6C63FF&icon_color=6C63FF&text_color=c9d1d9&bg_color=0d1117" alt="Sidi Maadh github stats" />
+  <img width="42%" src="https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=sidi-maadh&layout=compact&hide_border=true&title_color=6C63FF&text_color=c9d1d9&bg_color=0d1117&langs_count=6" />
 </div>
 
 <div align="center">
