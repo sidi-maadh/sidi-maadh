@@ -1,6 +1,0 @@
-<svg width="160" height="44" viewBox="0 0 160 44" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI', system-ui, sans-serif">
-  <rect x="1" y="1" width="158" height="42" rx="12" fill="#13161c" stroke="#222831"/>
-  <path d="M30 13 h8 l4.5 4.5 v10 a1 1 0 0 1 -1 1 h-11.5 a1 1 0 0 1 -1 -1 v-13.5 a1 1 0 0 1 1 -1 z" fill="none" stroke="#a78bfa" stroke-width="1.7" stroke-linejoin="round"/>
-  <path d="M38 13 v4.5 h4.5" fill="none" stroke="#a78bfa" stroke-width="1.7" stroke-linejoin="round"/>
-  <text x="52" y="27" fill="#cfd6e4" font-size="14" font-weight="600">Resume</text>
-</svg>
