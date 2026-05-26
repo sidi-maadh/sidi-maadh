@@ -12,11 +12,15 @@
 <br/>
 
 <!-- ===================== ABOUT ===================== -->
+<img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/titles/title_about.svg" alt="About" width="100%"/>
+
 <img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/about.svg" alt="About" width="100%"/>
 
 <br/>
 
 <!-- ===================== TECH STACK ===================== -->
+<img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/titles/title_techstack.svg" alt="Tech Stack" width="100%"/>
+
 <img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/techstack.svg" alt="Tech Stack" width="100%"/>
 
 <br/>
@@ -35,11 +39,15 @@
 <br/>
 
 <!-- ===================== CERTIFICATIONS ===================== -->
+<img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/titles/title_certifications.svg" alt="Certifications" width="100%"/>
+
 <img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/certifications.svg" alt="Certifications" width="100%"/>
 
 <br/>
 
 <!-- ===================== SELF EDUCATION ===================== -->
+<img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/titles/title_education.svg" alt="Self Education" width="100%"/>
+
 <img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/education.svg" alt="Self Education" width="100%"/>
 
 <div align="center">
@@ -141,6 +149,7 @@
 
 <br/>
 <br/>
+
 <!-- ===================== CONTRIBUTION SNAKE ===================== -->
 <img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/titles/title_snake.svg" alt="Contribution Graph" width="100%"/>
 
