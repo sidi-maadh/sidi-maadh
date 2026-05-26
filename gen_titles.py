@@ -20,6 +20,10 @@ ICONS = {
     "cyber": '''<path d="M13 2 L23 5 V12 C23 19 18 23 13 25 C8 23 3 19 3 12 V5 Z" fill="none" stroke="#34d399" stroke-width="1.8" stroke-linejoin="round"/><path d="M9 13 l3 3 l5 -6" stroke="#34d399" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>''',
     "ai": '''<rect x="6" y="8" width="14" height="12" rx="3" fill="none" stroke="#a78bfa" stroke-width="1.8"/><circle cx="10.5" cy="14" r="1.6" fill="#a78bfa"/><circle cx="15.5" cy="14" r="1.6" fill="#a78bfa"/><path d="M13 3 v5 M9 20 v3 M17 20 v3 M20 11 h3 M3 11 h3" stroke="#a78bfa" stroke-width="1.8" stroke-linecap="round"/><circle cx="13" cy="3" r="1.6" fill="#60a5fa"/>''',
     "snake": '''<path d="M3 8 q0 -5 5 -5 h6 q5 0 5 5 t-5 5 h-4 q-5 0 -5 5 t5 5 h8" fill="none" stroke="#34d399" stroke-width="2.2" stroke-linecap="round"/><circle cx="22" cy="23" r="2" fill="#34d399"/>''',
+    "about": '''<circle cx="13" cy="9" r="5" fill="none" stroke="#a78bfa" stroke-width="2"/><path d="M3 24 c0 -6 5 -9 10 -9 c5 0 10 3 10 9" fill="none" stroke="#a78bfa" stroke-width="2" stroke-linecap="round"/>''',
+    "techstack": '''<path d="M9 7 l-6 6 l6 6 M17 7 l6 6 l-6 6 M14 4 l-3 18" stroke="#60a5fa" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>''',
+    "certifications": '''<circle cx="13" cy="10" r="7" fill="none" stroke="#fbbf24" stroke-width="2"/><path d="M9 14 l-2 9 l6 -3 l6 3 l-2 -9" fill="none" stroke="#fbbf24" stroke-width="2" stroke-linejoin="round"/><path d="M10 10 l2 2 l4 -4" stroke="#fbbf24" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>''',
+    "education": '''<path d="M13 4 L24 10 L13 16 L2 10 Z" fill="none" stroke="#34d399" stroke-width="2" stroke-linejoin="round"/><path d="M7 12 v6 c0 2 12 2 12 0 v-6 M24 10 v7" stroke="#34d399" stroke-width="2" fill="none" stroke-linecap="round"/>''',
 }
 
 
@@ -48,6 +52,10 @@ SECTIONS = {
     "title_cyber":       ("Cybersecurity", "cyber"),
     "title_ai":          ("Artificial Intelligence", "ai"),
     "title_snake":       ("Contribution Graph", "snake"),
+    "title_about":          ("About", "about"),
+    "title_techstack":      ("Tech Stack", "techstack"),
+    "title_certifications": ("Certifications", "certifications"),
+    "title_education":      ("Self Education", "education"),
 }
 
 
