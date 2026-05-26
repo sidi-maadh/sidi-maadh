@@ -49,14 +49,19 @@ def fetch_rank():
         req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
         with urllib.request.urlopen(req, timeout=20) as r:
             svg = r.read().decode("utf-8", errors="replace")
-        # Le badge contient "... rank: N" ou "#N" — on cible le nombre près de 'rank'
-        m = (re.search(r"rank[:\s#]*?(\d+)", svg, re.IGNORECASE)
-             or re.search(r"#\s*(\d+)", svg))
-        if m:
-            return m.group(1)
-        # fallback : prendre le dernier nombre (souvent le rang) plutôt que le premier
-        nums = re.findall(r">\s*#?(\d+)\s*<", svg)
-        return nums[-1] if nums else "—"
+        # Le badge committers.top est un badge shields.io : le rang est le texte
+        # affiché dans la partie droite, contenu dans une balise <text>.
+        # On ignore les dimensions du SVG en ne lisant QUE le contenu des <text>.
+        texts = re.findall(r"<text[^>]*>([^<]*)</text>", svg)
+        # 'unranked' si pas classé
+        if any("unrank" in t.lower() for t in texts):
+            return "unranked"
+        # Le rang est un nombre dans les <text>, en partant de la droite (fin)
+        for t in reversed(texts):
+            m = re.search(r"#?\s*(\d+)", t)
+            if m:
+                return m.group(1)
+        return "—"
     except Exception:
         return "—"
 
