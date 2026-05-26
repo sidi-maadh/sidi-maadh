@@ -71,12 +71,7 @@ def build_about(a):
   </defs>
   <rect width="900" height="290" rx="16" fill="url(#abg)"/>
   <rect x="0.5" y="0.5" width="899" height="289" rx="16" fill="none" stroke="#ffffff" stroke-opacity="0.08"/>
-  <g transform="translate(40, 40)">
-    <rect x="0" y="-14" width="4" height="20" rx="2" fill="url(#aacc)"/>
-    <text x="16" y="2" fill="#f0f3f9" font-size="16" font-weight="700">About</text>
-    <text x="74" y="2" fill="#4b5263" font-size="13">// who I am</text>
-  </g>
-  <text x="40" y="78" fill="#aab2c5" font-size="14" font-weight="400">{sum_svg}</text>
+  <text x="40" y="52" fill="#aab2c5" font-size="14" font-weight="400">{sum_svg}</text>
   <line x1="40" y1="120" x2="860" y2="120" stroke="#ffffff" stroke-opacity="0.07"/>
   <g transform="translate(40, 140)">
     <text x="0" y="0" fill="#6b7280" font-size="11" font-weight="600" letter-spacing="1">FOCUS</text>
@@ -112,7 +107,7 @@ def text_width(s):
 def build_techstack(ts):
     cat_colors = ["#a78bfa", "#60a5fa", "#34d399", "#fbbf24", "#f472b6"]
     body = ""
-    y = 84
+    y = 40
     for idx, (cat, chips) in enumerate(ts.items()):
         color = cat_colors[idx % len(cat_colors)]
         label_w = text_width(cat) + 10
@@ -139,11 +134,7 @@ def build_techstack(ts):
   </defs>
   <rect width="900" height="{svg_h}" rx="16" fill="url(#sbg)"/>
   <rect x="0.5" y="0.5" width="899" height="{svg_h-1}" rx="16" fill="none" stroke="#ffffff" stroke-opacity="0.08"/>
-  <g transform="translate(40, 40)">
-    <rect x="0" y="-14" width="4" height="20" rx="2" fill="url(#sacc)"/>
-    <text x="16" y="2" fill="#f0f3f9" font-size="16" font-weight="700">Tech Stack</text>
-    <text x="124" y="2" fill="#4b5263" font-size="13">// tools I work with</text>
-  </g>
+
 {body}</svg>
 '''
 
@@ -162,7 +153,7 @@ def build_certifications(c):
         return "#8b93a7"
 
     body = ""
-    y = 74
+    y = 40
 
     def status_label(color, label):
         return (f'<g transform="translate(40, {y})">'
@@ -222,11 +213,7 @@ def build_certifications(c):
   </defs>
   <rect width="900" height="{svg_h}" rx="16" fill="url(#cbg)"/>
   <rect x="0.5" y="0.5" width="899" height="{svg_h-1}" rx="16" fill="none" stroke="#ffffff" stroke-opacity="0.08"/>
-  <g transform="translate(40, 40)">
-    <rect x="0" y="-14" width="4" height="20" rx="2" fill="url(#cacc)"/>
-    <text x="16" y="2" fill="#f0f3f9" font-size="16" font-weight="700">Certifications</text>
-    <text x="158" y="2" fill="#4b5263" font-size="13">// continuous learning</text>
-  </g>
+
   <g transform="translate(620, 28)" font-size="12">
     <circle cx="6" cy="8" r="4" fill="#34d399"/><text x="16" y="12" fill="#8b93a7">{len(completed)} done</text>
     <circle cx="86" cy="8" r="4" fill="#a78bfa"/><text x="96" y="12" fill="#8b93a7">{len(in_progress)} active</text>
