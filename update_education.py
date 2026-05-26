@@ -71,7 +71,7 @@ def build_svg(subjects, total):
     pct_goal = round(total / goal_min * 100) if goal_min else 0
 
     bars = []
-    y = 194
+    y = 168
     for name, mins in top:
         w = max(8, round(820 * mins / maxv))
         short = name.split(" (")[0]
@@ -113,17 +113,12 @@ def build_svg(subjects, total):
   </defs>
   <rect width="900" height="{svg_h}" rx="16" fill="url(#ebg)"/>
   <rect x="0.5" y="0.5" width="899" height="{svg_h-1}" rx="16" fill="none" stroke="#ffffff" stroke-opacity="0.08"/>
-  <g transform="translate(40, 40)">
-    <rect x="0" y="-14" width="4" height="20" rx="2" fill="url(#eacc)"/>
-    <text x="16" y="2" fill="#f0f3f9" font-size="16" font-weight="700">Self Education</text>
-    <text x="166" y="2" fill="#4b5263" font-size="13">// auto-synced from Google Sheets</text>
-  </g>
-  <text x="56" y="62" fill="#8b93a7" font-size="13">Daily hours logged across scientific &amp; practical fields — updated {today}.</text>
-  <g transform="translate(40, 78)"><rect width="194" height="62" rx="12" fill="#13161c" stroke="#222831"/><text x="16" y="22" fill="#6b7280" font-size="10" font-weight="600" letter-spacing="0.8">TOTAL STUDIED</text><text x="16" y="46" fill="#f0f3f9" font-size="22" font-weight="700">{total//60}<tspan font-size="13" fill="#8b93a7" font-weight="500">h {total%60:02d}m</tspan></text></g>
-  <g transform="translate(246, 78)"><rect width="194" height="62" rx="12" fill="#13161c" stroke="#222831"/><text x="16" y="22" fill="#6b7280" font-size="10" font-weight="600" letter-spacing="0.8">YEARLY GOAL</text><text x="16" y="46" fill="#f0f3f9" font-size="22" font-weight="700">1200<tspan font-size="13" fill="#8b93a7" font-weight="500">h · {pct_goal}%</tspan></text></g>
-  <g transform="translate(452, 78)"><rect width="194" height="62" rx="12" fill="#13161c" stroke="#222831"/><text x="16" y="22" fill="#6b7280" font-size="10" font-weight="600" letter-spacing="0.8">TOP SUBJECT</text><text x="16" y="44" fill="#f0f3f9" font-size="14" font-weight="700">{esc(top_name)}</text><text x="170" y="44" fill="#a78bfa" font-size="11" text-anchor="end">{top_hours}</text></g>
-  <g transform="translate(658, 78)"><rect width="202" height="62" rx="12" fill="#13161c" stroke="#222831"/><text x="16" y="22" fill="#6b7280" font-size="10" font-weight="600" letter-spacing="0.8">FIELDS TRACKED</text><text x="16" y="46" fill="#f0f3f9" font-size="22" font-weight="700">{n_fields}<tspan font-size="13" fill="#8b93a7" font-weight="500"> active areas</tspan></text></g>
-  <text x="40" y="172" fill="#6b7280" font-size="11" font-weight="600" letter-spacing="1">HOURS BY FIELD</text>
+  <text x="40" y="36" fill="#8b93a7" font-size="13">Daily hours logged across scientific &amp; practical fields — updated {today}.</text>
+  <g transform="translate(40, 52)"><rect width="194" height="62" rx="12" fill="#13161c" stroke="#222831"/><text x="16" y="22" fill="#6b7280" font-size="10" font-weight="600" letter-spacing="0.8">TOTAL STUDIED</text><text x="16" y="46" fill="#f0f3f9" font-size="22" font-weight="700">{total//60}<tspan font-size="13" fill="#8b93a7" font-weight="500">h {total%60:02d}m</tspan></text></g>
+  <g transform="translate(246, 52)"><rect width="194" height="62" rx="12" fill="#13161c" stroke="#222831"/><text x="16" y="22" fill="#6b7280" font-size="10" font-weight="600" letter-spacing="0.8">YEARLY GOAL</text><text x="16" y="46" fill="#f0f3f9" font-size="22" font-weight="700">1200<tspan font-size="13" fill="#8b93a7" font-weight="500">h · {pct_goal}%</tspan></text></g>
+  <g transform="translate(452, 52)"><rect width="194" height="62" rx="12" fill="#13161c" stroke="#222831"/><text x="16" y="22" fill="#6b7280" font-size="10" font-weight="600" letter-spacing="0.8">TOP SUBJECT</text><text x="16" y="44" fill="#f0f3f9" font-size="14" font-weight="700">{esc(top_name)}</text><text x="170" y="44" fill="#a78bfa" font-size="11" text-anchor="end">{top_hours}</text></g>
+  <g transform="translate(658, 52)"><rect width="202" height="62" rx="12" fill="#13161c" stroke="#222831"/><text x="16" y="22" fill="#6b7280" font-size="10" font-weight="600" letter-spacing="0.8">FIELDS TRACKED</text><text x="16" y="46" fill="#f0f3f9" font-size="22" font-weight="700">{n_fields}<tspan font-size="13" fill="#8b93a7" font-weight="500"> active areas</tspan></text></g>
+  <text x="40" y="146" fill="#6b7280" font-size="11" font-weight="600" letter-spacing="1">HOURS BY FIELD</text>
   <line x1="158" y1="168" x2="860" y2="168" stroke="#ffffff" stroke-opacity="0.06"/>
 {chr(10).join(bars)}
   <line x1="40" y1="{y+12}" x2="860" y2="{y+12}" stroke="#ffffff" stroke-opacity="0.07"/>
