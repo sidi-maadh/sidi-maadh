@@ -22,13 +22,13 @@
 <br/>
 
 <!-- ===================== FEATURED PROJECTS ===================== -->
-<h3>&nbsp;&nbsp;Latest Projects</h3>
+<img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/titles/title_projects.svg" alt="Latest Projects" width="100%"/>
 
 <!-- PROJECTS:START -->
 <p align="center">
-  <a href="https://github.com/sidi-maadh/sidi-maadh"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/projects/p1.svg" width="32%" alt="Project 1"/></a>
-  <a href="https://github.com/sidi-maadh/MachineLearningSpecialization_Labs"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/projects/p2.svg" width="32%" alt="Project 2"/></a>
-  <a href="https://github.com/sidi-maadh/Intro_to_AI_CourseMaterials"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/projects/p3.svg" width="32%" alt="Project 3"/></a>
+  <a href="https://github.com/sidi-maadh?tab=repositories"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/projects/p1.svg" width="32%" alt="Project 1"/></a>
+  <a href="https://github.com/sidi-maadh?tab=repositories"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/projects/p2.svg" width="32%" alt="Project 2"/></a>
+  <a href="https://github.com/sidi-maadh?tab=repositories"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/projects/p3.svg" width="32%" alt="Project 3"/></a>
 </p>
 <!-- PROJECTS:END -->
 
@@ -49,7 +49,7 @@
 <br/>
 
 <!-- ===================== COMMUNITY ===================== -->
-<h3>&nbsp;&nbsp;Community</h3>
+<img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/titles/title_community.svg" alt="Community" width="100%"/>
 
 <p align="center">
   <a href="https://github.com/sidi-maadh?tab=followers"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/community/followers.svg" width="22%" alt="Followers"/></a>&nbsp;
@@ -61,15 +61,15 @@
 <br/>
 
 <!-- ===================== GITHUB STATS ===================== -->
-<h3>&nbsp;&nbsp;GitHub Analytics</h3>
+<img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/titles/title_analytics.svg" alt="GitHub Analytics" width="100%"/>
 
 <div align="center">
   <img width="100%" src="https://github-profile-trophy.vercel.app/?username=sidi-maadh&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7" alt="GitHub Trophies" />
 </div>
 
 <div align="center">
-  <img width="55%" src="https://github-readme-stats-salesp07.vercel.app/api?username=sidi-maadh&show_icons=true&count_private=true&hide_border=true&title_color=6C63FF&icon_color=6C63FF&text_color=c9d1d9&bg_color=0d1117" alt="Sidi Maadh github stats" />
-  <img width="42%" src="https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=sidi-maadh&layout=compact&hide_border=true&title_color=6C63FF&text_color=c9d1d9&bg_color=0d1117&langs_count=6" />
+  <img width="49%" src="https://github-readme-stats-salesp07.vercel.app/api?username=sidi-maadh&show_icons=true&count_private=true&hide_border=true&title_color=6C63FF&icon_color=6C63FF&text_color=c9d1d9&bg_color=0d1117" alt="Sidi Maadh github stats" />
+  <img width="49%" src="https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=sidi-maadh&layout=compact&hide_border=true&title_color=6C63FF&text_color=c9d1d9&bg_color=0d1117&langs_count=6" />
 </div>
 
 <div align="center">
@@ -88,7 +88,7 @@
 <br/>
 
 <!-- ===================== COMPETITIVE PROGRAMMING ===================== -->
-<h3>&nbsp;&nbsp;Competitive Programming</h3>
+<img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/titles/title_competitive.svg" alt="Competitive Programming" width="100%"/>
 
 <p align="center">
   <a href="https://codeforces.com/profile/sidi_maadh"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/cp/codeforces.svg" width="19%" alt="Codeforces"/></a>
@@ -101,7 +101,7 @@
 <br/>
 
 <!-- ===================== PROBLEM SOLVING ===================== -->
-<h3>&nbsp;&nbsp;Problem Solving</h3>
+<img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/titles/title_problem.svg" alt="Problem Solving" width="100%"/>
 
 <p align="center">
   <a href="https://cses.fi/user/300386"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/problemsolving/cses.svg" width="23%" alt="CSES"/></a>
@@ -113,7 +113,7 @@
 <br/>
 
 <!-- ===================== CYBERSECURITY ===================== -->
-<h3>&nbsp;&nbsp;Cybersecurity</h3>
+<img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/titles/title_cyber.svg" alt="Cybersecurity" width="100%"/>
 
 <p align="center">
   <a href="https://app.hackthebox.com/users/sidiMaadh"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/cyber/hackthebox.svg" width="23%" alt="Hack The Box"/></a>
@@ -125,7 +125,7 @@
 <br/>
 
 <!-- ===================== AI ===================== -->
-<h3>&nbsp;&nbsp;Artificial Intelligence</h3>
+<img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/titles/title_ai.svg" alt="Artificial Intelligence" width="100%"/>
 
 <p align="center">
   <a href="https://www.kaggle.com/sidimaadh"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/ai/kaggle.svg" width="23%" alt="Kaggle"/></a>
@@ -140,9 +140,9 @@
 </a>
 
 <br/>
-
+<br/>
 <!-- ===================== CONTRIBUTION SNAKE ===================== -->
-<h3>&nbsp;&nbsp;🐍 Contribution Graph</h3>
+<img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/titles/title_snake.svg" alt="Contribution Graph" width="100%"/>
 
 <div align="center">
 <img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/output/github-contribution-grid-snake-dark.svg" width="100%"/>
