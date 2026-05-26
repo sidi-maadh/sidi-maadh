@@ -6,6 +6,7 @@
   <a href="https://www.linkedin.com/in/sidichrifahmedmaadh/"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/social/linkedin.svg" height="40" alt="LinkedIn"/></a>&nbsp;
   <a href="https://twitter.com/SidiMaadh"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/social/twitter.svg" height="40" alt="Twitter"/></a>&nbsp;
   <a href="http://www.youtube.com/@SidiMaadh"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/social/youtube.svg" height="40" alt="YouTube"/></a>&nbsp;
+  <a href="https://sidi-maadh.github.io"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/social/portfolio.svg" height="40" alt="Portfolio"/></a>&nbsp;
   <a href="https://drive.google.com/file/d/1w5D3iPeZThQWXO-vnhodsMFtNqpmB9u5/view"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/social/resume.svg" height="40" alt="Resume"/></a>
 </p>
 
