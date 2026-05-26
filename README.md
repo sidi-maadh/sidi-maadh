@@ -1,6 +1,6 @@
 <!-- ===================== HEADER ===================== -->
 <img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/header.svg" alt="Sidi Chrif Ahmed Maadh — AI / ML Engineer" width="100%"/>
-
+<br/>
 <p align="center">
   <a href="mailto:sidichrifahdmaadh@gmail.com"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/social/email.svg" width="15%" alt="Email"/></a>&nbsp;
   <a href="https://www.linkedin.com/in/sidichrifahmedmaadh/"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/social/linkedin.svg" width="15%" alt="LinkedIn"/></a>&nbsp;
