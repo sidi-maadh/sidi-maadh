@@ -138,19 +138,19 @@
         "name": "Machine Learning Specialization",
         "issuer": "Andrew Ng · Stanford",
         "platform": "Coursera",
-        "year": "2024"
+        "year": "2026"
       },
       {
         "name": "Deep Learning Specialization",
         "issuer": "Andrew Ng · deeplearning.ai",
         "platform": "Coursera",
-        "year": "2024"
+        "year": "2026"
       },
       {
         "name": "NLP Specialization",
         "issuer": "deeplearning.ai",
         "platform": "Coursera",
-        "year": "2024"
+        "year": "2026"
       }
     ],
     "in_progress": [
@@ -158,13 +158,13 @@
         "name": "Generative AI with LLMs",
         "issuer": "DeepLearning.AI · AWS",
         "platform": "Coursera",
-        "year": "2025"
+        "year": "2026"
       },
       {
         "name": "AWS Cloud Practitioner",
         "issuer": "Amazon Web Services",
         "platform": "AWS",
-        "year": "2025"
+        "year": "2026"
       }
     ],
     "planned": [
