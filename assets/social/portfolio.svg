@@ -1,0 +1,7 @@
+<svg width="156" height="44" viewBox="0 0 156 44" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI', system-ui, sans-serif">
+  <rect x="1" y="1" width="154" height="42" rx="12" fill="#13161c" stroke="#222831"/>
+  <circle cx="29" cy="22" r="9" fill="none" stroke="#a78bfa" stroke-width="1.7"/>
+  <ellipse cx="29" cy="22" rx="3.8" ry="9" fill="none" stroke="#a78bfa" stroke-width="1.4"/>
+  <path d="M20.5 19 h17 M20.5 25 h17" stroke="#a78bfa" stroke-width="1.4"/>
+  <text x="45" y="27" fill="#cfd6e4" font-size="14" font-weight="600">Portfolio</text>
+</svg>
