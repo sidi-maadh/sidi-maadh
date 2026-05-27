@@ -144,11 +144,10 @@
 <br/>
 
 <!-- ===================== LATEST YOUTUBE ===================== -->
-<a href="https://www.youtube.com/@SidiMaadh">
-<img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/youtube_latest.svg" alt="Latest YouTube video" width="100%"/>
-</a>
+<img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/titles/title_youtube.svg" alt="Latest on YouTube" width="100%"/>
 
-<br/>
+<img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/youtube_latest.svg" alt="Latest YouTube videos" width="100%"/>
+
 <br/>
 
 <!-- ===================== CONTRIBUTION SNAKE ===================== -->
