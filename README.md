@@ -146,7 +146,11 @@
 <!-- ===================== LATEST YOUTUBE ===================== -->
 <img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/titles/title_youtube.svg" alt="Latest on YouTube" width="100%"/>
 
-<img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/youtube_latest.svg" alt="Latest YouTube videos" width="100%"/>
+<p align="center">
+  <a href="https://www.youtube.com/@SidiMaadh"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/youtube/v1.svg" width="32%" alt="Video 1"/></a>
+  <a href="https://www.youtube.com/@SidiMaadh"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/youtube/v2.svg" width="32%" alt="Video 2"/></a>
+  <a href="https://www.youtube.com/@SidiMaadh"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/youtube/v3.svg" width="32%" alt="Video 3"/></a>
+</p>
 
 <br/>
 
