@@ -23,6 +23,7 @@ ICONS = {
     "about": '''<circle cx="13" cy="9" r="5" fill="none" stroke="#a78bfa" stroke-width="2"/><path d="M3 24 c0 -6 5 -9 10 -9 c5 0 10 3 10 9" fill="none" stroke="#a78bfa" stroke-width="2" stroke-linecap="round"/>''',
     "techstack": '''<path d="M9 7 l-6 6 l6 6 M17 7 l6 6 l-6 6 M14 4 l-3 18" stroke="#60a5fa" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>''',
     "certifications": '''<circle cx="13" cy="10" r="7" fill="none" stroke="#fbbf24" stroke-width="2"/><path d="M9 14 l-2 9 l6 -3 l6 3 l-2 -9" fill="none" stroke="#fbbf24" stroke-width="2" stroke-linejoin="round"/><path d="M10 10 l2 2 l4 -4" stroke="#fbbf24" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>''',
+    "youtube": '''<rect x="2" y="6" width="22" height="15" rx="4" fill="#ff0000"/><path d="M11 10 l6 3.5 l-6 3.5 z" fill="#fff"/>''',
     "education": '''<path d="M13 4 L24 10 L13 16 L2 10 Z" fill="none" stroke="#34d399" stroke-width="2" stroke-linejoin="round"/><path d="M7 12 v6 c0 2 12 2 12 0 v-6 M24 10 v7" stroke="#34d399" stroke-width="2" fill="none" stroke-linecap="round"/>''',
 }
 
@@ -56,6 +57,7 @@ SECTIONS = {
     "title_techstack":      ("Tech Stack", "techstack"),
     "title_certifications": ("Certifications", "certifications"),
     "title_education":      ("Self Education", "education"),
+    "title_youtube":        ("Latest on YouTube", "youtube"),
 }
 
 
