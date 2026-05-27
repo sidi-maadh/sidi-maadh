@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-Génère assets/youtube_latest.svg : carte large 900px avec les 3 dernières
-vidéos de la chaîne (miniature + titre + date + bouton play).
-Source : flux RSS YouTube (public, pas de clé API). Robuste : génère toujours un SVG.
+Génère 3 cartes vidéo individuelles dans assets/youtube/ (v1.svg, v2.svg, v3.svg),
+chacune = 1 vidéo (miniature + bouton play + titre + date), cliquable.
+Source : flux RSS YouTube (public, pas de clé API). Robuste : génère toujours les 3 SVG.
 """
 import os
 import re
@@ -86,83 +86,73 @@ def truncate(s, n):
     return s if len(s) <= n else s[:n - 1] + "…"
 
 
-def video_block(v, x):
-    W = 270
+def build_card(v):
+    """Une carte vidéo individuelle = 1 fichier SVG (288x230)."""
+    W, IMG_H = 288, 162
     thumb = v.get("thumb", "")
     full = v["title"]
     line1, line2 = full, ""
-    if len(full) > 30:
+    if len(full) > 32:
         words = full.split()
         l1 = ""
         for w in words:
-            if len(l1) + len(w) + 1 <= 30:
+            if len(l1) + len(w) + 1 <= 32:
                 l1 = (l1 + " " + w).strip()
             else:
                 break
         line1 = l1
-        line2 = truncate(full[len(l1):].strip(), 30)
+        line2 = truncate(full[len(l1):].strip(), 32)
     line1, line2 = esc(line1), esc(line2)
     date = esc(v.get("date", ""))
+    href = f"https://www.youtube.com/watch?v={v['vid']}" if v['vid'] else f"https://www.youtube.com/@{HANDLE}"
+    cx, cy = W // 2, 16 + IMG_H // 2
 
     if thumb:
-        img = (f'<image x="{x}" y="20" width="{W}" height="152" '
+        img = (f'<image x="10" y="16" width="{W-20}" height="{IMG_H}" '
                f'preserveAspectRatio="xMidYMid slice" href="{thumb}"/>')
     else:
-        img = f'<rect x="{x}" y="20" width="{W}" height="152" rx="10" fill="#1c2128"/>'
+        img = f'<rect x="10" y="16" width="{W-20}" height="{IMG_H}" rx="10" fill="#1c2128"/>'
 
-    href = f"https://www.youtube.com/watch?v={v['vid']}" if v['vid'] else f"https://www.youtube.com/@{HANDLE}"
-    cx = x + W // 2
-    return f'''
+    return f'''<svg width="{W}" height="230" viewBox="0 0 {W} 230" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI', system-ui, sans-serif">
+  <rect x="1" y="1" width="{W-2}" height="228" rx="14" fill="#13161c" stroke="#222831"/>
+  <rect x="1" y="1" width="{W-2}" height="4" rx="2" fill="#ff0000"/>
   <a href="{href}">
-  <clipPath id="clip{x}"><rect x="{x}" y="20" width="{W}" height="152" rx="10"/></clipPath>
-  <g clip-path="url(#clip{x})">{img}<rect x="{x}" y="20" width="{W}" height="152" fill="#000" fill-opacity="0.12"/></g>
-  <circle cx="{cx}" cy="96" r="22" fill="#000000" fill-opacity="0.55"/>
-  <path d="M{cx - 7} 86 l14 10 l-14 10 z" fill="#ffffff"/>
-  <text x="{x}" y="196" fill="#e6eaf2" font-size="13" font-weight="600">{line1}</text>
-  <text x="{x}" y="214" fill="#e6eaf2" font-size="13" font-weight="600">{line2}</text>
-  <text x="{x}" y="234" fill="#6b7280" font-size="11">{date}</text>
-  </a>'''
-
-
-def build_svg(videos):
-    blocks = ""
-    positions = [40, 320, 600]
-    for i, v in enumerate(videos[:3]):
-        blocks += video_block(v, positions[i])
-    return f'''<svg width="900" height="260" viewBox="0 0 900 260" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI', system-ui, sans-serif">
-  <defs>
-    <linearGradient id="ytbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0a0c10"/><stop offset="1" stop-color="#10131a"/></linearGradient>
-  </defs>
-  <rect width="900" height="260" rx="16" fill="url(#ytbg)"/>
-  <rect x="0.5" y="0.5" width="899" height="259" rx="16" fill="none" stroke="#ffffff" stroke-opacity="0.08"/>
-{blocks}
+    <clipPath id="c"><rect x="10" y="16" width="{W-20}" height="{IMG_H}" rx="10"/></clipPath>
+    <g clip-path="url(#c)">{img}<rect x="10" y="16" width="{W-20}" height="{IMG_H}" fill="#000" fill-opacity="0.12"/></g>
+    <circle cx="{cx}" cy="{cy}" r="24" fill="#ff0000" fill-opacity="0.9"/>
+    <path d="M{cx-8} {cy-11} l16 11 l-16 11 z" fill="#ffffff"/>
+    <text x="18" y="200" fill="#e6eaf2" font-size="13" font-weight="600">{line1}</text>
+    <text x="18" y="218" fill="#e6eaf2" font-size="13" font-weight="600">{line2}</text>
+  </a>
 </svg>
 '''
 
 
-def placeholder():
-    vids = [{"title": "Visit my YouTube channel", "vid": "", "date": "@" + HANDLE, "thumb": ""} for _ in range(3)]
-    return build_svg(vids)
+def placeholder_card(i):
+    return build_card({"title": "Coming soon — new video", "vid": "", "date": "@" + HANDLE, "thumb": ""})
 
 
 def main():
-    os.makedirs("assets", exist_ok=True)
+    os.makedirs("assets/youtube", exist_ok=True)
+    videos = []
     try:
         cid = resolve_channel_id()
-        if not cid:
-            raise RuntimeError("channel id introuvable")
-        videos = fetch_videos(cid, 3)
-        if not videos:
-            raise RuntimeError("aucune vidéo")
-        for v in videos:
-            v["thumb"] = thumb_data_uri(v["vid"])
-        svg = build_svg(videos)
-        print(f"OK — {len(videos)} vidéos YouTube récupérées")
+        if cid:
+            videos = fetch_videos(cid, 3)
+            for v in videos:
+                v["thumb"] = thumb_data_uri(v["vid"])
     except Exception as e:
-        print(f"Avertissement YouTube: {e} — carte par défaut.")
-        svg = placeholder()
-    with open("assets/youtube_latest.svg", "w", encoding="utf-8") as f:
-        f.write(svg)
+        print(f"Avertissement YouTube: {e}")
+
+    # Toujours générer 3 cartes (vidéos réelles + placeholders si manquantes)
+    for i in range(3):
+        if i < len(videos):
+            svg = build_card(videos[i])
+        else:
+            svg = placeholder_card(i)
+        with open(f"assets/youtube/v{i+1}.svg", "w", encoding="utf-8") as f:
+            f.write(svg)
+    print(f"OK — 3 cartes vidéo générées ({len(videos)} réelles)")
 
 
 if __name__ == "__main__":
