@@ -164,11 +164,9 @@
 <br/>
 
 <!-- ===================== FOOTER ===================== -->
+<img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/footer.svg" alt="Let's build something intelligent together" width="100%"/>
+
 <div align="center">
-
-<sub>Let's build something intelligent together.&nbsp;&nbsp;⭐ Star a repo if it helped you.</sub>
-
-<br/><br/>
+<br/>
 <img src="https://komarev.com/ghpvc/?username=sidi-maadh&style=flat-square&color=8b5cf6&label=Profile+Views"/>
-
 </div>
