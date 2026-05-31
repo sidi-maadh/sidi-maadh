@@ -138,37 +138,50 @@
         "name": "Machine Learning Specialization",
         "issuer": "Andrew Ng · Stanford",
         "platform": "Coursera",
-        "year": "2026"
-      },
-      {
-        "name": "Machine Learning Specialization",
-        "issuer": "Andrew Ng · Stanford",
-        "platform": "Coursera",
-        "year": "2026"
-      },
-      {
-        "name": "Machine Learning Specialization",
-        "issuer": "Andrew Ng · Stanford",
-        "platform": "Coursera",
-        "year": "2026"
-      },
-      {
-        "name": "Machine Learning Specialization",
-        "issuer": "Andrew Ng · Stanford",
-        "platform": "Coursera",
-        "year": "2026"
+        "year": "2026",
+        "url": "https://www.coursera.org/specializations/machine-learning-introduction"
       },
       {
         "name": "Deep Learning Specialization",
         "issuer": "Andrew Ng · deeplearning.ai",
         "platform": "Coursera",
-        "year": "2026"
+        "year": "2026",
+        "url": "https://www.coursera.org/specializations/deep-learning"
       },
       {
         "name": "NLP Specialization",
         "issuer": "deeplearning.ai",
         "platform": "Coursera",
-        "year": "2026"
+        "year": "2026",
+        "url": "https://www.coursera.org/specializations/natural-language-processing"
+      },
+      {
+        "name": "TensorFlow Developer Certificate",
+        "issuer": "Google · deeplearning.ai",
+        "platform": "Coursera",
+        "year": "2026",
+        "url": "https://www.coursera.org/professional-certificates/tensorflow-in-practice"
+      },
+      {
+        "name": "Python for Data Science",
+        "issuer": "IBM",
+        "platform": "Coursera",
+        "year": "2026",
+        "url": "https://www.coursera.org/professional-certificates/ibm-data-science"
+      },
+      {
+        "name": "SQL for Data Science",
+        "issuer": "UC Davis",
+        "platform": "Coursera",
+        "year": "2026",
+        "url": "https://www.coursera.org/learn/sql-for-data-science"
+      },
+      {
+        "name": "Mathematics for Machine Learning",
+        "issuer": "Imperial College London",
+        "platform": "Coursera",
+        "year": "2026",
+        "url": "https://www.coursera.org/specializations/mathematics-machine-learning"
       }
     ],
     "in_progress": [
