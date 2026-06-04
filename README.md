@@ -31,8 +31,8 @@
 
 <!-- PROJECTS:START -->
 <p align="center">
-  <a href="https://github.com/sidi-maadh/sidi-maadh"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/projects/p1.svg" width="32%" alt="Project 1"/></a>
-  <a href="https://github.com/sidi-maadh/sidi-maadh.github.io"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/projects/p2.svg" width="32%" alt="Project 2"/></a>
+  <a href="https://github.com/sidi-maadh/sidi-maadh.github.io"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/projects/p1.svg" width="32%" alt="Project 1"/></a>
+  <a href="https://github.com/sidi-maadh/sidi-maadh"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/projects/p2.svg" width="32%" alt="Project 2"/></a>
   <a href="https://github.com/sidi-maadh/MachineLearningSpecialization_Labs"><img src="https://raw.githubusercontent.com/sidi-maadh/sidi-maadh/main/assets/projects/p3.svg" width="32%" alt="Project 3"/></a>
 </p>
 <!-- PROJECTS:END -->
