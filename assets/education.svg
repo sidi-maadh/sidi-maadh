@@ -6,7 +6,7 @@
   </defs>
   <rect width="900" height="456" rx="16" fill="url(#ebg)"/>
   <rect x="0.5" y="0.5" width="899" height="455" rx="16" fill="none" stroke="#ffffff" stroke-opacity="0.08"/>
-  <text x="40" y="36" fill="#8b93a7" font-size="13">Daily hours logged across scientific &amp; practical fields — updated 2026-07-01.</text>
+  <text x="40" y="36" fill="#8b93a7" font-size="13">Daily hours logged across scientific &amp; practical fields — updated 2026-07-02.</text>
   <g transform="translate(40, 52)"><rect width="194" height="62" rx="12" fill="#13161c" stroke="#222831"/><text x="16" y="22" fill="#6b7280" font-size="10" font-weight="600" letter-spacing="0.8">TOTAL STUDIED</text><text x="16" y="46" fill="#f0f3f9" font-size="22" font-weight="700">258<tspan font-size="13" fill="#8b93a7" font-weight="500">h 41m</tspan></text></g>
   <g transform="translate(246, 52)"><rect width="194" height="62" rx="12" fill="#13161c" stroke="#222831"/><text x="16" y="22" fill="#6b7280" font-size="10" font-weight="600" letter-spacing="0.8">YEARLY GOAL</text><text x="16" y="46" fill="#f0f3f9" font-size="22" font-weight="700">1200<tspan font-size="13" fill="#8b93a7" font-weight="500">h · 22%</tspan></text></g>
   <g transform="translate(452, 52)"><rect width="194" height="62" rx="12" fill="#13161c" stroke="#222831"/><text x="16" y="22" fill="#6b7280" font-size="10" font-weight="600" letter-spacing="0.8">TOP SUBJECT</text><text x="16" y="44" fill="#f0f3f9" font-size="14" font-weight="700">Computer Science</text><text x="170" y="44" fill="#a78bfa" font-size="11" text-anchor="end">138h</text></g>
@@ -39,7 +39,7 @@
     <circle cx="32" cy="32" r="32" fill="none" stroke="#8b5cf6" stroke-width="8" stroke-linecap="round" stroke-dasharray="201" stroke-dashoffset="101" transform="rotate(-90 32 32)"/>
     <text x="32" y="38" text-anchor="middle" fill="#f0f3f9" font-size="16" font-weight="700">50%</text>
     <text x="82" y="28" fill="#e6eaf2" font-size="16" font-weight="600">Year Progress</text>
-    <text x="82" y="50" fill="#8b93a7" font-size="13">181 days passed · 184 remaining</text>
+    <text x="82" y="50" fill="#8b93a7" font-size="13">182 days passed · 183 remaining</text>
   </g>
   <g transform="translate(470, 368)">
     <circle cx="32" cy="32" r="32" fill="none" stroke="#161a21" stroke-width="8"/>
